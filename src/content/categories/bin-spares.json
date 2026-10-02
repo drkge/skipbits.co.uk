@@ -1,0 +1,169 @@
+{
+  "title": "Bin Spares",
+  "description": "Drain plugs, bungs, handles and other spare parts for trade waste bins.",
+  "group": "bin-spares",
+  "order": 27,
+  "products": [
+    {
+      "id": "prop-for-mm-mg",
+      "name": "Prop for MM/MG",
+      "code": "NL23",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "insert-plugs-flexible-pe-320-gl27-black",
+      "name": "Insert Plugs Flexible PE 320 / GL27 Black",
+      "code": "INSERTPLUG/CO",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "recycling-brushes-straight",
+      "name": "Recycling Brushes Straight",
+      "code": "EMBRUSHES6D-ST",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "recycling-brushes-90-degree",
+      "name": "Recycling Brushes 90 degree",
+      "code": "EMBRUSHES6D-90",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "grey-lid-pins-for-240l",
+      "name": "Grey Lid Pins for 240L",
+      "code": "WB24OHINGEPIN13",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "240-litre-handle-fitted-as-standard",
+      "name": "240 Litre Handle - (fitted as standard)",
+      "code": "NL27",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "fixing-bung-grommets-for-240l",
+      "name": "Fixing Bung (Grommets for 240L)",
+      "code": "NL26",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "fel-prop-easi-opener",
+      "name": "FEL Prop Easi Opener",
+      "code": "FEL_PROPKIT",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "weather-proof-cap",
+      "name": "Weather Proof Cap",
+      "code": "NL21",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "lid-lock-plugs-taylor",
+      "name": "Lid Lock Plugs (Taylor)",
+      "code": "NL19",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "out-of-service-bung",
+      "name": "Out of Service Bung",
+      "code": "NL18",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "plug-and-stem-grommets",
+      "name": "Plug and Stem (Grommets)",
+      "code": "NL16",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "lid-bung",
+      "name": "Lid Bung",
+      "code": "NL7",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "extended-security-post",
+      "name": "Extended Security Post",
+      "code": "L45",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "trunnions-pair-dura-bin",
+      "name": "Trunnions (Pair) Dura Bin",
+      "code": "TRUNNIONS (PAIR)",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "steel-bin-base-1100l",
+      "name": "Steel Bin Base 1100L",
+      "code": "SB_BASE_1100L",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "handles-danish-tw-bins",
+      "name": "Handles Danish-TW Bins",
+      "code": "DANISHHANDASSEM",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "lid-handle-and-locking-nut",
+      "name": "Lid Handle and Locking Nut",
+      "code": "NL38",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "drain-plug-sulo-2004883-4-plastics",
+      "name": "DRAIN PLUG SULO 2004883/4 - Plastics",
+      "code": "NDPSUL",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "1100l-drain-plug-rodent-repellant",
+      "name": "1100l Drain Plug - Rodent Repellent",
+      "code": "NDPRRR",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "1100l-drain-plug-duraflex-bin-for-1-8mm-to-2mm",
+      "name": "1100l Drain Plug (Duraflex Bin) for 1.8mm to 2mm",
+      "code": "NDP2.0",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "1100l-drain-plug-for-1-5mm-to-1-7mm",
+      "name": "1100l Drain Plug (for 1.5mm to 1.7mm)",
+      "code": "PLUGS0004",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "insert-plug",
+      "name": "Insert Plug",
+      "code": "INSERTPLUG/CO",
+      "description": [],
+      "images": []
+    }
+  ]
+}

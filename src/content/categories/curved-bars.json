@@ -1,0 +1,56 @@
+{
+  "title": "Curved Bars",
+  "description": "Curved bars and bale bars for skip and container builds.",
+  "group": "skip-parts",
+  "order": 8,
+  "products": [
+    {
+      "id": "bfd4225-curved-bar",
+      "name": "Bale Bar",
+      "options": {
+        "name": "Material",
+        "choices": [
+          {
+            "name": "150M19",
+            "code": "BFD4225"
+          },
+          {
+            "name": "080M40 (EN8)",
+            "code": "BFD4226"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "bfd4225-curved-bar.png"
+      ]
+    },
+    {
+      "id": "bfd3952-curved-bar-copy-copy",
+      "name": "Bale Bar",
+      "code": "BFD4043",
+      "description": [],
+      "images": [
+        "bfd3952-curved-bar-copy-copy.png"
+      ]
+    },
+    {
+      "id": "bfd1845-curved-bar-copy",
+      "name": "Bale Bar",
+      "code": "BFD3952",
+      "description": [],
+      "images": [
+        "bfd1845-curved-bar-copy.png"
+      ]
+    },
+    {
+      "id": "bfd1845-curved-bar",
+      "name": "Bale Bar",
+      "code": "BFD1845",
+      "description": [],
+      "images": [
+        "bfd1845-curved-bar.png"
+      ]
+    }
+  ]
+}

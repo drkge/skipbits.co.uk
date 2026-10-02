@@ -1,0 +1,98 @@
+{
+  "title": "Skip Profiles",
+  "description": "Pressed steel profiles for building and repairing skips.",
+  "group": "skip-parts",
+  "order": 9,
+  "products": [
+    {
+      "id": "plate-profile-bfd6161",
+      "name": "Locking Plate",
+      "code": "BFD6161",
+      "description": [],
+      "images": [
+        "plate-profile-bfd6161.png",
+        "plate-profile-bfd6161-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4174",
+      "name": "Locking Plate",
+      "code": "BFD4174",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4174.png",
+        "plate-profile-bfd4174-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4543",
+      "name": "Locking Plate",
+      "code": "BFD4543",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4543.png",
+        "plate-profile-bfd4543-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4540",
+      "name": "Door Lock Slide Plate",
+      "code": "BFD4540",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4540.png",
+        "plate-profile-bfd4540-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4539",
+      "name": "Profile Locking Bar Mount",
+      "code": "BFD4539",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4539.png",
+        "plate-profile-bfd4539-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4538",
+      "name": "Profile Locking Bar Mount",
+      "code": "BFD4538",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4538.png",
+        "plate-profile-bfd4538-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4170",
+      "name": "Profile Locking Bar Mount",
+      "code": "BFD4170",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4170.png",
+        "plate-profile-bfd4170-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4537",
+      "name": "Profile Locking Bar Mount",
+      "code": "BFD4537",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4537.png",
+        "plate-profile-bfd4537-2.png"
+      ]
+    },
+    {
+      "id": "plate-profile-bfd4171",
+      "name": "Profile Locking Bar Mount",
+      "code": "BFD4171",
+      "description": [],
+      "images": [
+        "plate-profile-bfd4171.png",
+        "plate-profile-bfd4171-2.png"
+      ]
+    }
+  ]
+}

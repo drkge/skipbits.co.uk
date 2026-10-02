@@ -1,0 +1,503 @@
+{
+  "title": "Trade Waste Lids",
+  "description": "Replacement lids for four-wheeled trade waste bins from 500 to 1700 litres.",
+  "group": "lids",
+  "order": 23,
+  "products": [
+    {
+      "id": "1700l-recycling-lid-1634mm-x-1141mm-rubber-rosettes",
+      "name": "1700L Recycling Lid - 1634mm x 1141mm (Rubber Rosettes)",
+      "code": "MS1700RM-ROS",
+      "description": [
+        "Increase your storage efficiency with our high dome containers, designed to resist sagging in temperatures up to 50°C. The deep ribbing adds exceptional strength, while the 3 hinge lugs provide extra support. And with its stackable design, shipping multiple containers is now more cost-effective.",
+        "With rubber rosettes for bottles/cans to fit 1700 ltr European containers."
+      ],
+      "images": [
+        "1700l-recycling-lid-1634mm-x-1141mm-rubber-rosettes.jpg"
+      ]
+    },
+    {
+      "id": "1700l-recycling-lid-1634mm-x-1141mm",
+      "name": "1700L Recycling Lid - 1634mm x 1141mm",
+      "code": "MS1700RM-FLA",
+      "description": [
+        "Our high dome container is perfect for withstanding extreme temperatures, with a resistance to sagging up to 50°C. The small handle allows for easy opening and closing, while the deep ribbing provides exceptional strength. Its 3 hinge lugs are designed for extra durability, and the stackable design allows for cost-effective freight.",
+        "With plastic flap for paper collection to fit 1700 ltr European containers."
+      ],
+      "images": [
+        "1700l-recycling-lid-1634mm-x-1141mm.jpg"
+      ]
+    },
+    {
+      "id": "1100l-lid-in-lid-1224mm-x-980mm",
+      "name": "1100L Lid In Lid - 1224mm x 980mm",
+      "code": "MG1105RM",
+      "description": [
+        "The 1100L Lid In Lid is designed with a big aperture to easily accommodate a 100 litre bin liner. For hands-free loading, you can opt for a mechanical prop for the flap. The lightweight and self-closing flap offers user-friendly operation and can be locked for added security. Equipped with front handles and stackable for cost-effective shipping, it also features a high dome for extreme weather conditions and a customizable name plate.",
+        "With automatic prop opening feature & round flap. For European 1100 ltr containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100l-lid-in-lid-1224mm-x-980mm.jpg"
+      ]
+    },
+    {
+      "id": "1100l-recycling-lid-1218mm-x-974mm-1",
+      "name": "1100L Recycling Lid - 1218mm x 974mm",
+      "code": "MG1100RM-FLA",
+      "description": [
+        "The 1100L Recycling Lid - 1218mm x 974mm is a durable and versatile solution for waste management. Its rubber flap allows for easy paper collection while the high dome resists sagging in high temperatures. The lid features channels for rainwater evacuation, handle slots for easy opening, and 3 hinge lugs for extra strength. It also accepts a patented CCE lock for added security.",
+        "Recycling lid with flap for paper to fit European 1100 ltr containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100l-recycling-lid-1218mm-x-974mm-1.jpg"
+      ]
+    },
+    {
+      "id": "1100l-recycling-lid-1218mm-x-974mm",
+      "name": "1100L Recycling Lid - 1218mm x 974mm",
+      "code": "MG1100RM-BSA",
+      "description": [
+        "Constructed for durability and strength, the 1100L Recycling Lid is designed to fit both plastic and metal bins. Its high dome resists sagging in high temperatures, while channeling rainwater for efficient evacuation. Equipped with handle slots and a patented CCE lock, this lid is perfect for secure, easy opening.",
+        "Recycling lid fitted with brushes for bottles/cans to fit European 1100 ltr containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100l-recycling-lid-1218mm-x-974mm.jpg"
+      ]
+    },
+    {
+      "id": "1100l-recycling-lid-with-open-aperture-1218mm-x-974mm",
+      "name": "1100L Recycling lid with open aperture - 1218mm x 974mm",
+      "code": "MG1100RM",
+      "description": [
+        "Maximize your recycling with the 1100L Recycling lid. Designed with an open aperture, high dome and deep ribbing, it's built to withstand temperatures up to 50°C and resist sagging. The lid fits both plastic and metal bins, with channels to drain rainwater and handle slots for easy opening. Security is ensured with patented CCE lock compatibility and 3 hinge lugs for added strength.",
+        "Recycling lid with open aperture for paper to fit European 1100 ltr containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100l-recycling-lid-with-open-aperture-1218mm-x-974mm.jpg"
+      ]
+    },
+    {
+      "id": "770l-trade-waste-lid-1228mm-x-958mm",
+      "name": "770L Trade Waste Lid - 1228mm x 958mm",
+      "code": "MG0770",
+      "description": [
+        "The 770 Trade Waste Lid is customisable with a name plate, and its high dome resists sagging in temperatures up to 50°C. The rainwater channel and handle slots make for easy maintenance, while the deep ribbing and 3 hinge lugs provide exceptional strength. Use the patented CCE lock for added security.",
+        "To fit European 770 litre Trade Waste containers."
+      ],
+      "fits": [
+        "770L"
+      ],
+      "images": [
+        "770l-trade-waste-lid-1228mm-x-958mm.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-recycling-lid-with-brushes-1",
+      "name": "1100 Litre Recycling lid with brushes",
+      "code": "ML1100RM-BSA",
+      "description": [
+        "The 1100 Litre Recycling lid with brushes features a vandal proof flap that can be easily swapped for different applications. The inclined front face prevents water build-up, while the lockable flap adds extra security. The black base lid with coloured flap saves costs and the nestable design allows for affordable shipping. Made with a high dome and deep ribbing, this lid is exceptionally strong. Plus, the base lid can be made with recycled material for added sustainability.",
+        "To fit Taylor, Sellers and Spider UK 1100 litre containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-litre-recycling-lid-with-brushes-1.jpg"
+      ]
+    },
+    {
+      "id": "1100-lid-in-lid",
+      "name": "1100 Lid In Lid",
+      "code": "MM4937RM",
+      "description": [
+        "The 1100 Lid In Lid offers a user-friendly and secure bin solution. The flap can be propped open for hands-free loading and locked independently for additional security. Its high-dome design and durable construction make it suitable for extreme climates. Additionally, the base lid can be made from recycled material, and the stackable design reduces freight costs.",
+        "To fit Taylor, Sellers & Spider 1100 litre containers.",
+        "With a round aperture (560mm Ø) to accept 100 litre bin liner."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-lid-in-lid.jpg"
+      ]
+    },
+    {
+      "id": "940-litre-trade-waste-container-lid",
+      "name": "940 litre Trade Waste Container lid",
+      "code": "MK3935",
+      "description": [
+        "The 940 litre Trade Waste Container lid is a must-have for businesses looking for cost-effective freight solutions. Its nestable design saves on transportation costs, while its 5 ribs and domed shape provide optimal strength. With 3 hinge lugs and the ability to accept a CCE lock, this lid ensures maximum durability and security.",
+        "To fit Egbert Taylor Chamberlain high rise bins."
+      ],
+      "fits": [
+        "940L"
+      ],
+      "images": [
+        "940-litre-trade-waste-container-lid.jpg"
+      ]
+    },
+    {
+      "id": "1101-litre-reverse-lid",
+      "name": "1100 litre Reverse Lid",
+      "code": "MR4937-BSA",
+      "description": [
+        "The 1100 litre Reverse Lid is a durable container lid equipped with brushes for efficient collection of bottles or cans. Its high dome and deep ribbing provide superior strength while the sloped form aids in water drainage. Compatible with various 1100 ltr containers and equipped for optimal security with a patented CCE lock.",
+        "With brushes for collection of bottles or cans.",
+        "To fit Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto (metal container), T&D Panther and Saracen Mk2 1100 litre Containers."
+      ],
+      "images": [
+        "1101-litre-reverse-lid.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-reverse-lid",
+      "name": "1100 litre Reverse Lid",
+      "code": "MR4937",
+      "description": [
+        "Introducing the 1100 litre Reverse Lid - designed with 6 ribs and 3 hinge lugs for unparalleled strength. The integrated front handle allows for effortless opening, and the patented CCE lock ensures secure storage. Plus, its nested design makes for efficient and cost-effective shipping. Personalise it with a custom name plate.",
+        "Flat lid to Storm and Straight 1100 litre bins."
+      ],
+      "images": [
+        "1100-litre-reverse-lid.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-recycling-lid-with-brushes",
+      "name": "1100 litre Recycling lid with brushes",
+      "code": "ME4937RM-BSA",
+      "description": [
+        "This 1100 litre recycling lid is designed to fit a variety of containers, including Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto, T&D Panther, and Saracen Mk2 1100 litre. The high dome and deep ribbing offer exceptional strength, while the sloped form helps with water drainage. It also features 3 large hinge lugs for optimal strength and can be equipped with a patented CCE lock for added security."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-litre-recycling-lid-with-brushes.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-recycling-lid-with-plastic-flap",
+      "name": "1100 litre Recycling lid with plastic flap",
+      "code": "ML1100RM-FLA",
+      "description": [
+        "Expertly designed for efficient recycling, the 1100 litre Recycling lid features a vandal-proof flap that can be interchanged for various applications. The front face is angled to prevent water retention, while the independent locking mechanism ensures added security. Made with a black base and coloured flap, this lid is cost-effective and eco-friendly with its nested design. Its high dome and deep ribbing provide superior strength and durability.",
+        "To fit Taylor, Sellers and Spider UK 1100 litre containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-litre-recycling-lid-with-plastic-flap.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-lid-in-lid",
+      "name": "1100 litre Lid-In-Lid",
+      "code": "MA4937DM-REC",
+      "description": [
+        "The 1100 litre Lid-In-Lid is a versatile and cost-effective solution for your container needs. With a self-closing flap that is light and easy to lift, it ensures a watertight seal. The black base lid, equipped with a colored flap, not only reduces costs but also allows for stackability. For added security, the flap can be locked independently and interchanged to fit any application. Plus, the base lid is made with recycled material and features front handles for ease of opening.",
+        "With watertight self-closing plastic flap."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-litre-lid-in-lid.jpg"
+      ]
+    },
+    {
+      "id": "1280-litre-trade-waste-container-lid",
+      "name": "1280 litre Trade Waste Container lid",
+      "code": "ML1280",
+      "description": [
+        "This 1280 litre Trade Waste Container lid features a nestable design for cost-effective freight. Its high dome and deep ribbing provide exceptional strength, while the channel helps to evacuate rainwater. The moulded-in handle aids in opening and closing, and it can be mounted directly onto the container's hinge brackets for convenience. For added security, it is designed to accept our patented lock.",
+        "To fit Taylor 1280 litre bins."
+      ],
+      "fits": [
+        "1280L"
+      ],
+      "images": [
+        "1280-litre-trade-waste-container-lid.jpg"
+      ]
+    },
+    {
+      "id": "1280-litre-recycling-lid-with-brushes",
+      "name": "1280 litre Recycling lid with brushes",
+      "code": "ML1280RM-BSA",
+      "description": [
+        "Introducing the 1280 litre Recycling lid, designed with a nestable structure for cost-effective shipping and a high dome with deep ribbing for unparalleled strength. The channel and handle make for easy rainwater evacuation and opening/closing. Interchangeable, vandal-proof flap can be locked independently for added security.",
+        "To fit Egbert Taylor 1280 litre container."
+      ],
+      "fits": [
+        "1280L"
+      ],
+      "images": [
+        "1280-litre-recycling-lid-with-brushes.jpg"
+      ]
+    },
+    {
+      "id": "1280-litre-recycling-lid-with-plastic-flap",
+      "name": "1280 litre Recycling lid with plastic flap",
+      "code": "ML1280RM-FLA",
+      "description": [
+        "Increase efficiency and reduce costs with our 1280 litre Recycling lid. Its nestable design makes for cost-effective freight, while the high dome and deep ribbing provide exceptional strength. Featuring a moulded-in handle and a channel to drain rainwater, this lid also offers added security with a vandal proof flap and lockable option. Choose from a range of colours to suit your needs.",
+        "To fit Egbert Taylor 1280 litre container."
+      ],
+      "fits": [
+        "1280L"
+      ],
+      "images": [
+        "1280-litre-recycling-lid-with-plastic-flap.jpg"
+      ]
+    },
+    {
+      "id": "500-litre-660-litre-recycling-lid-with-brushes",
+      "name": "500 litre / 660 litre Recycling lid with brushes",
+      "code": "ML0660RM-BSA",
+      "description": [
+        "This 500 litre / 660 litre Recycling lid with brushes offers a vandal-proof flap that can easily be replaced depending on the application. The front face is inclined for optimal water drainage and the flap can be locked for added security. The black base lid with coloured flap reduces costs, while the nested design allows for cost-effective shipping. Made with high dome and deep ribbing, this lid is exceptionally strong and can also be produced with recycled materials.",
+        "To fit Egbert Taylor 500 litre and 660 litre containers."
+      ],
+      "fits": [
+        "500L",
+        "660L"
+      ],
+      "images": [
+        "500-litre-660-litre-recycling-lid-with-brushes.jpg"
+      ]
+    },
+    {
+      "id": "500-litre-660-litre-recycling-lid-with-plastic-flap",
+      "name": "500 litre / 660 litre Recycling lid with plastic flap",
+      "code": "ML0660RM-FLA",
+      "description": [
+        "Introducing our 500 litre / 660 litre Recycling lid with plastic flap. Made with a vandal proof flap, this lid offers added security and cost-effectiveness with its interchangeable, lockable feature. The inclined front face eliminates water retention, while the high dome and deep ribbing provide exceptional strength. Plus, its nested design and option for recycled material make for efficient and eco-friendly shipping.",
+        "To fit Taylors 500 litre and 660 litre containers."
+      ],
+      "fits": [
+        "500L",
+        "660L"
+      ],
+      "images": [
+        "500-litre-660-litre-recycling-lid-with-plastic-flap.jpg"
+      ]
+    },
+    {
+      "id": "500-litre-660-litre-trade-waste-container-lid",
+      "name": "500 litre / 660 litre Trade Waste Container lid",
+      "code": "MA4927",
+      "description": [
+        "The 500 litre / 660 litre Trade Waste Container lid offers personalisation with a custom name plate, CCE lock for security, and a nested design for cost-effective freight. With 7 ribs and 4 hinge blocks, it ensures optimal strength and features 2 molded-in handles for easy opening and closing.",
+        "Flat lid to fit Taylor 660 & 500 litre bins and Sellers 500 litre bins."
+      ],
+      "fits": [
+        "500L",
+        "660L"
+      ],
+      "images": [
+        "500-litre-660-litre-trade-waste-container-lid.jpg"
+      ]
+    },
+    {
+      "id": "770-litre-recycling-lid-with-plastic-flap",
+      "name": "770 / 820 litre Recycling lid with plastic flap",
+      "code": "ML0770RM-FLA",
+      "description": [
+        "Increase recycling rates with the 770 / 820 litre Recycling lid. Featuring a vandal-proof flap that can be easily changed, an inclined front face to prevent water retention, and lockable flap for extra security. The black base lid with colored flap reduces costs while the nested design allows for cost-effective shipping. Made with recycled materials, this lid's high dome and deep ribbing provides exceptional strength.",
+        "To fit Taylor 770/ 820 litre containers & Sellers and Spider UK 660/ 770 litre containers."
+      ],
+      "fits": [
+        "660L",
+        "770L",
+        "820L"
+      ],
+      "images": [
+        "770-litre-recycling-lid-with-plastic-flap.jpg"
+      ]
+    },
+    {
+      "id": "770-litre-recycling-lid-with-brushes-1",
+      "name": "770 / 820 litre Recycling lid with brushes",
+      "code": "ML0770RM-BSA",
+      "description": [
+        "The 770 / 820 litre Recycling lid with brushes boasts a vandal-proof flap, interchangeable for various applications. Its front face is inclined to eliminate water retention, while the flap can be independently locked for added security. The black base and coloured flap reduce costs, and its nested design makes for cost-effective freight. Made with high dome and deep ribbing, this lid provides exceptional strength and can be produced in recycled material.",
+        "To fit Taylor 770/820 litre containers and Sellers/ Spider UK 660/770 litre containers."
+      ],
+      "fits": [
+        "660L",
+        "770L",
+        "820L"
+      ],
+      "images": [
+        "770-litre-recycling-lid-with-brushes-1.jpg"
+      ]
+    },
+    {
+      "id": "770-litre-recycling-lid-with-brushes",
+      "name": "770 / 820 litre Recycling lid with brushes",
+      "code": "ME4929RM-BSA",
+      "description": [
+        "This 770 / 820 litre Recycling lid includes brushes for easy collection of bottles and cans. Its high dome and deep ribbing offer exceptional strength, and the 3 large hinge lugs provide optimal durability. With a sloped form for efficient water draining and equipped to accept a patented CCE lock for added security, this lid is perfect for all your recycling needs.",
+        "Will fit Taylor 770 & 820 ltr, Sellers 660 & 770 ltr and Spider UK 660 & 770 ltr containers."
+      ],
+      "fits": [
+        "660L",
+        "770L",
+        "820L"
+      ],
+      "images": [
+        "770-litre-recycling-lid-with-brushes.jpg"
+      ]
+    },
+    {
+      "id": "770-litre-recycling-lid-with-rubber-flap",
+      "name": "770 / 820 litre Recycling lid with rubber flap",
+      "code": "ME4929RM-FLA",
+      "description": [
+        "Increase your recycling efficiency with our 770 / 820 litre Recycling lid. The high dome and deep ribbing provide exceptional strength, with 3 large hinge lugs for optimal reinforcement. The sloped form allows for water drainage, while the rubber flap ensures secure paper collection. This lid is also equipped to accept our patented CCE lock, providing added security for your recycling needs.",
+        "Will fit Taylor 770 & 820 litre, Sellers 660 & 770 litre and Spider UK 660 & 770 litre containers."
+      ],
+      "fits": [
+        "660L",
+        "770L",
+        "820L"
+      ],
+      "images": [
+        "770-litre-recycling-lid-with-rubber-flap.jpg"
+      ]
+    },
+    {
+      "id": "770-litre-trade-waste-container-lid-1",
+      "name": "770 / 820 litre Trade Waste Container lid",
+      "code": "ME4929",
+      "description": [
+        "Add a professional touch to your waste management system with the 770 / 820 litre Trade Waste Container lid. Customise with a personal nameplate and secure with the patented CCE lock. The front handle allows for easy access while the nested design saves on shipping costs. Its domed structure, 6 ribs, and 3 hinge lugs ensure optimal strength for all your waste disposal needs.",
+        "Domed lit to fit Taylor 770 & 820 litre bins and Sellers & Spider UK 660 & 770 litre bins."
+      ],
+      "fits": [
+        "660L",
+        "770L",
+        "820L"
+      ],
+      "images": [
+        "770-litre-trade-waste-container-lid-1.jpg"
+      ]
+    },
+    {
+      "id": "770-litre-trade-waste-container-lid",
+      "name": "770 litre Trade Waste Container lid",
+      "code": "MA4929",
+      "description": [
+        "Introducing our 770 litre Trade Waste Container lid, designed for optimal strength with 7 ribs and 4 hinge blocks. Personalise it with a custom name plate and secure it with our patented CCE lock. The nested design allows for cost-effective freight and the 2 moulded-in handles make opening and closing a breeze.",
+        "Flat lid to fit Taylor 770 litre bins and Sellers & Spider 660 & 770 litre bins."
+      ],
+      "fits": [
+        "770L"
+      ],
+      "images": [
+        "770-litre-trade-waste-container-lid.jpg"
+      ]
+    },
+    {
+      "id": "1100-ltr-lid-in-lid",
+      "name": "1100 Litre Lid-in-Lid",
+      "code": "MM4938RM",
+      "description": [
+        "The 1100 Litre Lid-in-Lid is a user-friendly, watertight bin with a high dome for extreme climates. The flap can be propped open for hands-free loading and locked for added security, while the base lid is stackable for cost-effective shipping. Made with recyclable materials, it features recessed front handles and a customisable name plate.",
+        "Flat lid to Storm and Straight 1100 litre bins."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-ltr-lid-in-lid.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-trade-waste-container-lid-1",
+      "name": "1100 Litre Trade Waste Container lid",
+      "code": "ME4937",
+      "description": [
+        "The 1100 Litre Trade Waste Container lid offers optimal strength with its domed design, 6 ribs, and 3 hinge lugs. It also features a personalized name plate, an integral front handle for easy opening, and the option to use a patented CCE lock for added security. Its nested design allows for cost-effective shipping.",
+        "Domed lid to fit Taylor, Sellers & Spider UK 1100 litre bins."
+      ],
+      "images": [
+        "1100-litre-trade-waste-container-lid-1.jpg"
+      ]
+    },
+    {
+      "id": "recycling-lid-with-brushes",
+      "name": "1100 Litre Recycling lid with brushes",
+      "code": "ME4937RM-BSA",
+      "description": [
+        "Increase the strength of your recycling bin with our 1100 Litre Recycling lid with brushes. Our high dome and deep ribbing provide exceptional strength, while the sloped form helps with water draining. Plus, our lid has 3 large hinge lugs for optimal durability and security with a patented CCE lock.",
+        "With brushes for collection of bottles or cans.",
+        "To fit Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto (metal container), T&D Panther and Saracen Mk2 1100 litre. Containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "recycling-lid-with-brushes.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-recycling-lid-with-rubber-flap",
+      "name": "1100 Litre Recycling lid with rubber flap",
+      "code": "ME4937RM-FLA",
+      "description": [
+        "This 1100 Litre Recycling lid with rubber flap is designed to fit various containers, including Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto (metal container), T&D Panther, and Saracen Mk2 1100 litre.",
+        "Its high dome and deep ribbing provide exceptional strength, while 3 large hinge blocks ensure optimal durability. The sloped form aids in water draining, and the lid is equipped to accept a CCE lock for added security.",
+        "With a rubber flap for paper collection.",
+        "To fit Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto (metal container), T&D Panther and Saracen Mk2 1100 litre. Containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-litre-recycling-lid-with-rubber-flap.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-recycling-lid-with-open-aperture",
+      "name": "1100 Litre Recycling lid with open aperture",
+      "code": "ME4937RM",
+      "description": [
+        "This 1100 Litre Recycling lid is specially designed to fit various containers, including Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto (metal container), T&D Panther and Saracen Mk2 1100 litre Containers. Its high dome and deep ribbing give it exceptional strength, while the 3 large hinge lugs and sloped form ensure optimal strength and easy water drainage. It's also equipped to accept a patented CCE lock for added security.",
+        "With an open aperture.",
+        "To fit Taylor Continental Mk2, Sellers Eurobin, Spider UK, Otto (metal container), T&D Panther and Saracen Mk2 1100 litre. Containers."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "images": [
+        "1100-litre-recycling-lid-with-open-aperture.jpg"
+      ]
+    },
+    {
+      "id": "1100-litre-trade-waste-container-lid",
+      "name": "1100 Litre Trade Waste Container Lid",
+      "code": "MA4938",
+      "description": [
+        "The 1100 Litre Trade Waste Container Lid offers superior strength with 4 hinge lugs and 7 ribs, while its nestable design ensures cost-effective shipping. Personalise with a custom name plate and secure with the patented CCE lock. Plus, integral front handles provide easy opening.",
+        "Flat lid to Storm and Straight 1100 litre bins."
+      ],
+      "images": [
+        "1100-litre-trade-waste-container-lid.jpg"
+      ]
+    }
+  ]
+}

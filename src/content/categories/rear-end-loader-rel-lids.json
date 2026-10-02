@@ -1,0 +1,68 @@
+{
+  "title": "Rear End Loader (REL) Lids",
+  "description": "Lids and folding fronts for rear end loader containers.",
+  "group": "lids",
+  "order": 21,
+  "products": [
+    {
+      "id": "rel-trade-waste-lid-969mm-x-1258mm",
+      "name": "REL Trade Waste Lid - 969mm x 1258mm",
+      "code": "EA3850",
+      "description": [
+        "Introducing our cost-effective, nestable design product with a large handle for easy access. Its strength is enhanced with 2 hinge lugs and 5 ribs, while its sloped form and front edge aid in water drainage. Personalize it with a custom name plate.",
+        "To fit 2.5, 3 and 5 cubic metre Euro Container."
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "rel-trade-waste-lid-969mm-x-1258mm.jpg"
+      ]
+    },
+    {
+      "id": "overlapping-doors-for-rel-887mm-x-921mm",
+      "name": "Overlapping Doors for REL - 887mm x 921mm",
+      "code": "DR3635",
+      "description": [
+        "Improve the security and durability of your REL containers with our innovative lid system. With two lids that form an overlapping door, preventing water damage, and equipped to accept our patented CCE lock, your belongings will stay safe and dry. The added bonus of 3 extra strength hinges and 2 mold-in handle slots make for easy opening and closing.",
+        "Normally used as a watertight pair of overlapping doors."
+      ],
+      "alsoIn": [
+        "skip-lids"
+      ],
+      "images": [
+        "overlapping-doors-for-rel-887mm-x-921mm.jpg"
+      ]
+    },
+    {
+      "id": "door-lid-for-rels-skips-902mm-x-715mm",
+      "name": "Door / Lid for RELs & Skips - 902mm x 715mm",
+      "code": "SC2836",
+      "description": [
+        "Introducing the Door/Lid for RELs & Skips, designed to fit both European & UK Rear End Loader containers. This versatile lid can also be used on Skips & Rolonoff Containers. Its nestable design makes for cost-effective freight, while 3 holes for bolting on a handle and 4 ribs for maximum strength ensure durability and efficiency.",
+        "Can be used top hinged as well as side hinged."
+      ],
+      "alsoIn": [
+        "skip-lids"
+      ],
+      "images": [
+        "door-lid-for-rels-skips-902mm-x-715mm.jpg"
+      ]
+    },
+    {
+      "id": "door-lid-for-rels-skips",
+      "name": "Door / Lid for RELs & Skips - 636mm x 604mm",
+      "code": "SC2425",
+      "description": [
+        "This container is designed to fit European & UK Rear End Loader containers, as well as Skips & Rolonoff Containers. It is equipped with a patented CCE lock for enhanced security and has a nestable design for cost-effective freight. The 2 handle slots allow for easy opening and closing, while the 4 ribs provide maximum strength.",
+        "Can be used top hinged as well as side hinged."
+      ],
+      "alsoIn": [
+        "skip-lids"
+      ],
+      "images": [
+        "door-lid-for-rels-skips.jpg"
+      ]
+    }
+  ]
+}

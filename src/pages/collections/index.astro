@@ -1,0 +1,60 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import CategoryCard from "@/components/CategoryCard.astro";
+import ContactBand from "@/components/ContactBand.astro";
+import { getCategories } from "@/lib/catalog";
+import { breadcrumbList } from "@/lib/schema";
+import { GROUPS } from "@/consts";
+
+const categories = await getCategories();
+const trail = [
+  { name: "Home", href: "/" },
+  { name: "All parts", href: "/collections/" },
+];
+---
+
+<BaseLayout
+  title="All parts"
+  description="Browse every skip and container part, lid and bin spare we list. Call or email for prices and availability."
+  schema={[breadcrumbList(trail)]}
+>
+  <div class="border-b border-stone-200 bg-stone-50">
+    <div class="wrap py-10">
+      <Breadcrumbs trail={trail} />
+      <h1 class="display mt-4 text-4xl sm:text-5xl">All parts</h1>
+      <nav aria-label="Departments" class="mt-6 flex flex-wrap gap-2">
+        {
+          GROUPS.map((group) => (
+            <a
+              href={`#${group.id}`}
+              class="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-semibold hover:border-ink"
+            >
+              {group.title}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+  </div>
+
+  {
+    GROUPS.map((group) => (
+      <section id={group.id} class="wrap mt-14" aria-labelledby={`${group.id}-title`}>
+        <h2 id={`${group.id}-title`} class="display text-3xl">
+          {group.title}
+        </h2>
+        <p class="mt-2 max-w-2xl text-stone-600">{group.blurb}</p>
+        <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          {categories
+            .filter((category) => category.group === group.id)
+            .map((category) => (
+              <CategoryCard category={category} />
+            ))}
+        </div>
+      </section>
+    ))
+  }
+
+  <ContactBand />
+</BaseLayout>

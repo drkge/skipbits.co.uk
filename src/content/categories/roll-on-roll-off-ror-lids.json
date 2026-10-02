@@ -1,0 +1,45 @@
+{
+  "title": "Roll-on Roll-off (RORO) Lids & Doors",
+  "description": "Lids and doors for roll-on roll-off containers.",
+  "group": "lids",
+  "order": 18,
+  "products": [
+    {
+      "id": "overlapping-doors-823mm-x-801mm",
+      "name": "Overlapping Doors - 823mm x 801mm",
+      "code": "DR3232",
+      "description": [
+        "The Overlapping Doors are a must-have for Skips and Rolonoff containers, offering protection from water damage. With two lids that overlap, these doors also come equipped with 2 handle slots for easy opening and closing, along with 3 hinges for added strength. Plus, the patented CCE lock ensures maximum security.",
+        "Normally used as a watertight pair of overlapping doors."
+      ],
+      "alsoIn": [
+        "skip-lids"
+      ],
+      "images": [
+        "overlapping-doors-823mm-x-801mm.jpg"
+      ]
+    },
+    {
+      "id": "roll-on-roll-off-lid-1220mm-x-1717mm",
+      "name": "Roll-on Roll-off Lid - 1220mm x 1717mm",
+      "code": "CM4868",
+      "description": [
+        "To cover RORO containers."
+      ],
+      "images": [
+        "roll-on-roll-off-lid-1220mm-x-1717mm.jpg"
+      ]
+    },
+    {
+      "id": "roro-rolling-roof-1029mm-x-1175mm",
+      "name": "RORO Rolling Roof - 1029mm x 1175mm",
+      "code": "RR4146",
+      "description": [
+        "Sliding lids for RORO Containers (12 required per container)"
+      ],
+      "images": [
+        "roro-rolling-roof-1029mm-x-1175mm.jpg"
+      ]
+    }
+  ]
+}

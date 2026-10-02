@@ -1,0 +1,21 @@
+{
+  "title": "Heavy Duty Roller Track",
+  "description": "Heavy duty roller track for skips and containers.",
+  "group": "skip-parts",
+  "order": 4,
+  "products": [
+    {
+      "id": "heavy-duty-roller-track",
+      "name": "Heavy Duty Roller Track",
+      "code": "BFD6827",
+      "description": [
+        "Introducing the Heavy Duty Roller Track, the perfect solution for effortlessly moving heavy skips or stillages around your yard.",
+        "Made in the UK with durable components from our trusted range, each track features a fully galvanised mounting frame and is fully serviceable in case of wear or damage. Comes in pairs for convenient use."
+      ],
+      "images": [
+        "heavy-duty-roller-track.png",
+        "heavy-duty-roller-track-2.png"
+      ]
+    }
+  ]
+}

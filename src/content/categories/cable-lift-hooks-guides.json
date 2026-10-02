@@ -1,0 +1,20 @@
+{
+  "title": "Cable Lift Hooks & Guides",
+  "description": "Cable lift hooks and guides, available as full sets.",
+  "group": "skip-parts",
+  "order": 14,
+  "products": [
+    {
+      "id": "cable-lift-hooks-guides",
+      "name": "Cable Lift Hooks & Guides",
+      "description": [
+        "Introducing our durable Cable Lift Hooks & Guides, available in full sets for all your lifting needs. Our top-quality hooks and guides are expertly designed for bolt-in installation, ensuring safe and efficient use without the need for welding. Trust in our reliable products for all your lifting projects.",
+        "Sold in full sets only.",
+        "These items are not suitable for welding and are to be bolted in position only."
+      ],
+      "images": [
+        "cable-lift-hooks-guides.png"
+      ]
+    }
+  ]
+}

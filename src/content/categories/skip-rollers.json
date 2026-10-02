@@ -1,0 +1,63 @@
+{
+  "title": "Skip Rollers",
+  "description": "Steel and polyurethane rollers for roll-on and hook-loader skips, with matching shafts and mounting plates.",
+  "group": "skip-parts",
+  "order": 1,
+  "products": [
+    {
+      "id": "poly-roller",
+      "name": "Poly Roller",
+      "code": "BFD5476",
+      "description": [
+        "This Poly Roller features a 25mm thick polyurethane layer on its surface, providing a quiet and smooth operation. Its design is suitable for 35mm diameter shafts, making it a versatile choice for various applications. Reduce noise and increase efficiency with the Poly Roller."
+      ],
+      "images": [
+        "poly-roller.png"
+      ]
+    },
+    {
+      "id": "skip-roller-bfd4719",
+      "name": "Rear Steel Roller",
+      "code": "BFD4719",
+      "description": [
+        "Skip Roller (BFD4719) is a versatile and sturdy choice for any 40mm shaft application."
+      ],
+      "images": [
+        "skip-roller-bfd4719.png"
+      ]
+    },
+    {
+      "id": "skip-roller-bfd6619",
+      "name": "Rear Steel Roller",
+      "code": "BFD6619",
+      "description": [
+        "Skip Roller (BFD6619) is a versatile and sturdy choice for any 35mm shaft application."
+      ],
+      "images": [
+        "skip-roller-bfd6619.png"
+      ]
+    },
+    {
+      "id": "skip-roller-bfd4017",
+      "name": "Rear Steel Roller",
+      "code": "BFD4017",
+      "description": [
+        "Skip Roller (BFD4017) is a versatile and sturdy choice for any 40mm shaft application."
+      ],
+      "images": [
+        "skip-roller-bfd4017.png"
+      ]
+    },
+    {
+      "id": "skip-roller-bfd4544",
+      "name": "Rear Steel Roller",
+      "code": "BFD4544",
+      "description": [
+        "Skip Roller (BFD4544) is a versatile and sturdy choice for any 35mm shaft application."
+      ],
+      "images": [
+        "skip-roller-bfd4544.png"
+      ]
+    }
+  ]
+}

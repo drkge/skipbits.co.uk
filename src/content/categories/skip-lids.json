@@ -1,0 +1,237 @@
+{
+  "title": "Skip Lids & Doors",
+  "description": "Plastic lids and overlapping doors for skips and enclosed containers.",
+  "group": "lids",
+  "order": 22,
+  "products": [
+    {
+      "id": "1100l-trade-waste-lid-1237mm-x-977mm-saracen-lid",
+      "name": "1100L Trade Waste Lid - 1237mm x 977mm (Saracen Lid)",
+      "code": "CE4939",
+      "description": [
+        "Upgrade your waste management system with the 1100L Trade Waste Lid. This 1237mm x 977mm lid comes equipped with handle slots for easy operation and patented CCE lock for added security. Its extra strong hinges and nestable design make it a cost-effective and efficient solution. Plus, the prop sockets located at the rear allow for easy propping open.",
+        "To fit 1100 ltr Tradewaste containers. Suitable for roll-top conversion."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1100l-trade-waste-lid-1237mm-x-977mm-saracen-lid.jpg"
+      ]
+    },
+    {
+      "id": "skip-lid-slave-835mm-x-1604mm",
+      "name": "SKIP Lid Slave - 835mm x 1604mm",
+      "code": "AM3463 SM",
+      "description": [
+        "The Skip Lid Slave is a versatile solution for bulk waste transport. Its overlapping pair prevents water ingress, while the moulded-in handles and 3 hinge lugs per lid ensure optimal strength. Personalize with a custom name plate and easily open and close by hand or with a spring system. Save on freight costs with its nestable design.",
+        "Overlapping and watertight pair of lids for use on symmetrical skips."
+      ],
+      "images": [
+        "skip-lid-slave-835mm-x-1604mm.jpg"
+      ]
+    },
+    {
+      "id": "overlapping-doors-930mm-x-652mm",
+      "name": "Overlapping Doors - 930mm x 652mm",
+      "code": "DT3725",
+      "description": [
+        "Increase the functionality and security of your containers and skips with our Overlapping Doors. These doors prevent water ingress with their overlapping design, while also featuring 2 mould-in handle slots for easy operation. Personalize with a custom name plate and secure with our patented CCE lock. Plus, with 4 ribs per lid, you can trust in their strength.",
+        "Normally used as a pair of overlapping doors."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "overlapping-doors-930mm-x-652mm.jpg"
+      ]
+    },
+    {
+      "id": "skip-lid-slave-927mm-x-1732mm",
+      "name": "Skip Lid Master - 927mm x 1732mm",
+      "code": "AM3468 MM",
+      "description": [
+        "The Skip Lid Slave is a versatile solution for bulk waste transport. Its overlapping pair prevents water ingress, while the moulded-in handles and 3 hinge lugs per lid ensure optimal strength. Personalize with a custom name plate and easily open and close by hand or with a spring system. Save on freight costs with its nestable design.",
+        "Overlapping and watertight pair of lids for use on symmetrical skips."
+      ],
+      "images": [
+        "skip-lid-slave-927mm-x-1732mm.jpg"
+      ]
+    },
+    {
+      "id": "1700l-trade-waste-lid-1634mm-x-1136mm",
+      "name": "1700L Trade Waste Lid - 1634mm x 1136mm",
+      "code": "MS1700",
+      "description": [
+        "Personalize your waste management system with our 1700L Trade Waste Lid. With a high dome that resists sagging up to 50°C and deep ribbing for strength, this lid is designed for durability. Easily open with handle slots and enjoy the added strength of 3 hinge lugs.",
+        "To fit European 1700 ltr containers. Also used on Mini-Skips."
+      ],
+      "fits": [
+        "1700L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1700l-trade-waste-lid-1634mm-x-1136mm.jpg"
+      ]
+    },
+    {
+      "id": "1100l-trade-waste-lid-1231mm-x-986mm",
+      "name": "1100L Trade Waste Lid - 1231mm x 986mm",
+      "code": "MG1100",
+      "description": [
+        "This 1100L Trade Waste Lid is weather-resistant with a high dome that won't sag up to 50°C. It features a channel for rainwater drainage, handle slots for easy opening and an optional CCE lock for added security. The deep ribbing and hinge lugs provide superior strength, while the prop sockets allow for easy propping open. Personalize with a custom name plate.",
+        "To fit European 1100 litre Trade Waste Containers. Also used on Mini-Skips."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1100l-trade-waste-lid-1231mm-x-986mm.jpg"
+      ]
+    },
+    {
+      "id": "skip-lid-master-896mm-x-1604mm",
+      "name": "SKIP Lid Master - 896mm x 1604mm",
+      "code": "AM3463 MM",
+      "description": [
+        "The SKIP Lid Master is a durable and efficient solution for water management. Its overlapping pair design prevents water ingress, while the moulded-in handles make it easy to open and close. With the option to customize with a name plate and the ability to nest for cost-effective shipping, this lid is the perfect choice for any commercial or industrial setting.",
+        "Overlapping and watertight pair of lids for use on symmetrical skips."
+      ],
+      "images": [
+        "skip-lid-master-896mm-x-1604mm.jpg"
+      ]
+    },
+    {
+      "id": "skip-lid-slave-926mm-x-1522mm",
+      "name": "SKIP Lid Slave - 926mm x 1522mm",
+      "code": "AM3460 SM",
+      "description": [
+        "The SKIP Lid Slave offers maximum strength with 5 ribs per lid and 'kiss-off' areas, plus 3 hinge lugs for optimal performance. Moulded-in handles provide ease of opening, and a nestable design allows for cost-effective freight. Personalize with a custom name plate.",
+        "Overlapping and watertight pair of lids for use on symmetrical skips."
+      ],
+      "images": [
+        "skip-lid-slave-926mm-x-1522mm.jpg"
+      ]
+    },
+    {
+      "id": "skip-lid-master-891mm-x-1522mm",
+      "name": "SKIP Lid Master - 891mm x 1522mm",
+      "code": "AM3460 MM",
+      "description": [
+        "The SKIP Lid Slave offers maximum strength with 5 ribs per lid and 'kiss-off' areas, plus 3 hinge lugs for optimal performance. Moulded-in handles provide ease of opening, and a nestable design allows for cost-effective freight. Personalize with a custom name plate.",
+        "Overlapping and watertight pair of lids for use on symmetrical skips."
+      ],
+      "images": [
+        "skip-lid-master-891mm-x-1522mm.jpg"
+      ]
+    },
+    {
+      "id": "skip-lid-1769mm-x-1612mm",
+      "name": "SKIP Lid - 1769mm x 1612mm",
+      "code": "AM6963",
+      "description": [
+        "Expertly designed with personalized name plate, nestable design for cost-effective shipping, 11 ribs and 'kiss-off' areas for maximum strength, and 5 hinge lugs for optimal strength. Pair with spring system for best use due to bulk and weight.",
+        "Single piece lid for use on skips."
+      ],
+      "images": [
+        "skip-lid-1769mm-x-1612mm.jpg"
+      ]
+    },
+    {
+      "id": "1700-trade-waste-container-lid",
+      "name": "1700L Trade Waste Container Lid - 1634mm x 1136mm",
+      "code": "MS1700",
+      "description": [
+        "The 1700L Trade Waste Container Lid is a durable and versatile solution for trade waste management. With a high dome design that resists sagging in temperatures up to 50°C, it also features convenient handle slots for easy opening and deep ribbing for exceptional strength. Personalize it with a custom name plate and benefit from its 3 hinge lugs designed for extra strength.",
+        "To fit European 1700 ltr containers. Also used on Mini-Skips."
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1700-trade-waste-container-lid.jpg"
+      ]
+    },
+    {
+      "id": "1700l-trade-waste-lid-1506mm-x-1078mm",
+      "name": "1700L Trade Waste Lid - 1506mm x 1078mm",
+      "code": "MG1700",
+      "description": [
+        "Maximize safety and cleanliness with the 1700L Trade Waste Lid. This 1506mm x 1078mm lid features a high dome that resists sagging in temperatures up to 50°C, deep ribbing for extra strength, and extended slots for metal wear strips. The lid is also equipped with handle slots for easy opening and can be personalized with a custom name plate.",
+        "To fit European 1700 ltr containers. Also used on Mini-Skips."
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1700l-trade-waste-lid-1506mm-x-1078mm.jpg"
+      ]
+    },
+    {
+      "id": "1100l-trade-waste-container-lid",
+      "name": "1100L Trade Waste Lid - 1231mm x 986mm",
+      "code": "MG1100",
+      "description": [
+        "The 1100L Trade Waste Container lid offers personalization with a custom name plate, resistant high dome up to 50°C, rainwater evacuation channel, easy opening handle slots, patented CCE lock for security, deep ribbing for exceptional strength, and 3 hinge lugs for extra durability. Propping sockets are located at the rear for convenient lid propping. Expertly designed and built for optimal performance.",
+        "To fit European 1100 litre Trade Waste Containers. Also used on Mini-Skips."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1100l-trade-waste-container-lid.jpg"
+      ]
+    },
+    {
+      "id": "660-trade-waste-lid-1225mm-x-692mm",
+      "name": "660 / 770 Trade Waste Lid - 1225mm x 692mm",
+      "code": "MG4928",
+      "description": [
+        "Expertly designed for durability and security, this product features a high dome that resists sagging in high temperatures. Its handle slots make for easy opening, while the deep ribbing and 3 hinge lugs add exceptional strength. Customise with a name plate and use with the patented CCE lock for added security.",
+        "To fit European 660/770 ltr Tradewaste containers."
+      ],
+      "fits": [
+        "660L",
+        "770L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "660-trade-waste-lid-1225mm-x-692mm.jpg"
+      ]
+    },
+    {
+      "id": "1100l-waste-container-lid-119-mm-x-1025mm",
+      "name": "1100L Waste Container Lid - 119 mm x 1025mm",
+      "code": "MH1100",
+      "description": [
+        "Introducing the 1100L Waste Container Lid - 119 mm x 1025mm. This lid offers a usable volume of 42 ltrs, high dome for resistance against sagging in temperatures up to 50°C, prop sockets for easy propping, channels for rainwater evacuation, handle slots for effortless opening, and a personalized name plate option. It is also equipped with patented CCE lock for added security, deep ribbing for exceptional strength and durable hinges for extra support. Upgrade your waste management with this expertly designed lid.",
+        "To fit European 1100 ltr Tradewaste containers. Also used on Mini-Skips."
+      ],
+      "fits": [
+        "1100L"
+      ],
+      "alsoIn": [
+        "trade-waste-lids"
+      ],
+      "images": [
+        "1100l-waste-container-lid-119-mm-x-1025mm.jpg"
+      ]
+    }
+  ]
+}

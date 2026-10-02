@@ -1,0 +1,59 @@
+{
+  "title": "Closed Body Rigging Screws",
+  "description": "Closed body rigging screws from M8 to M48.",
+  "group": "skip-parts",
+  "order": 15,
+  "products": [
+    {
+      "id": "closed-body-rigger-screw",
+      "name": "Closed Body Rigger Screw",
+      "options": {
+        "name": "Type",
+        "choices": [
+          {
+            "name": "M2"
+          },
+          {
+            "name": "M8"
+          },
+          {
+            "name": "M10"
+          },
+          {
+            "name": "M12"
+          },
+          {
+            "name": "M16"
+          },
+          {
+            "name": "M20"
+          },
+          {
+            "name": "M22"
+          },
+          {
+            "name": "M24"
+          },
+          {
+            "name": "M33"
+          },
+          {
+            "name": "M39"
+          },
+          {
+            "name": "M45"
+          },
+          {
+            "name": "M48"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "closed-body-rigger-screw.png",
+        "closed-body-rigger-screw-2.png",
+        "closed-body-rigger-screw-3.png"
+      ]
+    }
+  ]
+}

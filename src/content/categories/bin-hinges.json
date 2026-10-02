@@ -1,0 +1,169 @@
+{
+  "title": "Bin Hinges & Hinge Bars",
+  "description": "Hinge bars, rods, pins and brackets for trade waste bins.",
+  "group": "bin-spares",
+  "order": 25,
+  "products": [
+    {
+      "id": "selloc-pins-for-1100l-bars",
+      "name": "Selloc Pins (for 1100L Bars)",
+      "code": "F6X32GB",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "selloc-pins-for-1280l-bars",
+      "name": "Selloc Pins (for 1280L Bars)",
+      "code": "F4X24GB",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "13mm-hinge-pin",
+      "name": "13mm Hinge Pin",
+      "code": "NL25",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "20mm-hinge-pin",
+      "name": "20mm Hinge Pin",
+      "code": "NL24",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "fel-hinge-plate-3-per-set-pigs-ears",
+      "name": "FEL Hinge Plate (3 per set) (Pigs ears)",
+      "code": "HINGEPLATE-FEL",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "fel-hinge-rods-3757-bar-and-bolt-12mm-diam",
+      "name": "FEL Hinge Rods (3757) - Bar and Bolt - 12mm diam",
+      "code": "LR0877JA-012",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "fel-hinge-rods-3657",
+      "name": "FEL Hinge Rods (3657)",
+      "code": "LR0875JA-012K1",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "hinge-rod-20mm-diam",
+      "name": "Hinge Rod - 20mm diam",
+      "code": "HSH5635K",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "side-hinge-bracket-kit",
+      "name": "Side Hinge Bracket Kit",
+      "code": "LI1219BD-001PK3",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "cc01410-hinge-tube-32mm-66mm",
+      "name": "CC01410 HINGE TUBE 32MM/66MM",
+      "code": "CC0140 H/TUBE",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "1280-hinge-rods",
+      "name": "1280 Hinge Rods",
+      "code": "HHB1280K",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "tradewaste-hinge-bar-for-1100l-container",
+      "name": "Tradewaste Hinge Bar for 1100L+ Container",
+      "code": "LR0945CD-000",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "hinge-bar-kit-mk3935-lid-for-chamberlain",
+      "name": "Hinge Bar Kit MK3935 Lid for Chamberlain",
+      "code": "HMK3935K",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "hinge-bar-for-cp3838-lid",
+      "name": "Hinge Bar for CP3838 Lid",
+      "code": "HCP3838K",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "ml1280-hinge-bar-kit",
+      "name": "ML1280 Hinge Bar Kit",
+      "code": "HML1280HB",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "mh1100-hinge-bar-kit-plastic-repair-kit",
+      "name": "MH1100 Hinge bar kit / Plastic Repair Kit",
+      "code": "HMH1100K",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "plastic-hinge-adaptors",
+      "name": "Plastic Hinge Adaptors",
+      "code": "NL22",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "mg-mh-plastic-hinge-bar",
+      "name": "MG/MH Plastic Hinge Bar",
+      "code": "MH1100-BLK-HDPE",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "hinge-brackets-2-brackets-per-set-twt1100l-ext",
+      "name": "Hinge Brackets (2 brackets per set) TWT1100L EXT",
+      "code": "NL50",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "1100l-hinge-bar-bracket-kit",
+      "name": "1100L Hinge Bar & Bracket Kit",
+      "code": "HINGEKITTW",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "hinge-rods-bars",
+      "name": "Hinge Rods/Bars",
+      "code": "BARTW",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "1100l-hinge-bar-and-nl37-bracket-set-twt",
+      "name": "1100L Hinge Bar and NL37 Bracket Set-TWT",
+      "code": "NL37_HINGEKITSET",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "bracket-twt-500l-1100l",
+      "name": "Bracket-TWT (500L-1100L)",
+      "code": "NL37",
+      "description": [],
+      "images": []
+    }
+  ]
+}

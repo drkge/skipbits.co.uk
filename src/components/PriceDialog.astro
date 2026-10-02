@@ -1,0 +1,105 @@
+---
+// One dialog per page, filled in from whichever "Ask for price" button was
+// pressed. Buttons can be on the page from the start or added later (search
+// results), so clicks are handled on the document.
+import { Icon } from "astro-icon/components";
+import { BUSINESS, TEL_HREF } from "@/consts";
+---
+
+<dialog
+  id="price-dialog"
+  aria-labelledby="price-dialog-title"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-stone-700 shadow-2xl backdrop:bg-ink/60 backdrop:backdrop-blur-sm"
+>
+  <div class="relative grid sm:grid-cols-[minmax(0,15rem)_1fr]">
+    <form method="dialog" class="absolute top-3 right-3 z-10">
+      <button
+        class="inline-flex size-10 items-center justify-center rounded-full bg-white/90 text-stone-500 hover:bg-stone-100 hover:text-ink"
+        aria-label="Close"
+      >
+        <Icon name="lucide:x" class="size-5" />
+      </button>
+    </form>
+
+    <div class="flex aspect-[4/3] items-center justify-center border-b border-stone-200 bg-white sm:aspect-auto sm:border-r sm:border-b-0">
+      <img data-dialog-image alt="" class="hidden max-h-56 w-full object-contain p-6" />
+      <div data-dialog-placeholder class="flex flex-col items-center gap-2 py-10 text-stone-300">
+        <Icon name="lucide:image" class="size-10" />
+      </div>
+    </div>
+
+    <div class="p-6 sm:p-8">
+      <p class="eyebrow text-brand-600">Price &amp; availability</p>
+      <h2 id="price-dialog-title" class="display mt-2 pr-8 text-2xl leading-tight" data-dialog-name></h2>
+      <p class="mt-1 font-mono text-sm text-stone-500" data-dialog-code></p>
+
+      <p class="mt-4">
+        Get in touch for pricing and availability. Phone is quickest — or send us an email and we'll come back to you.
+      </p>
+
+      <div class="mt-6 grid gap-3">
+        <a href={TEL_HREF} class="btn btn-primary">
+          <Icon name="lucide:phone" class="size-5" />
+          Call {BUSINESS.telephoneDisplay}
+        </a>
+        <a href="#" class="btn btn-outline" data-dialog-email>
+          <Icon name="lucide:mail" class="size-5" />
+          Email {BUSINESS.email}
+        </a>
+      </div>
+      <p class="mt-4 text-sm text-stone-500" data-dialog-hint></p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("price-dialog") as HTMLDialogElement | null;
+
+  if (dialog) {
+    const $ = <T extends HTMLElement>(selector: string) => dialog.querySelector<T>(selector)!;
+    const image = $<HTMLImageElement>("[data-dialog-image]");
+    const placeholder = $("[data-dialog-placeholder]");
+    const name = $("[data-dialog-name]");
+    const code = $("[data-dialog-code]");
+    const email = $<HTMLAnchorElement>("[data-dialog-email]");
+    const hint = $("[data-dialog-hint]");
+
+    document.addEventListener("click", (event) => {
+      const button = (event.target as HTMLElement).closest<HTMLAnchorElement>("[data-ask]");
+      if (!button || typeof dialog.showModal !== "function") return;
+      event.preventDefault();
+
+      const { name: productName = "", code: productCode = "", option: optionName = "" } = button.dataset;
+      name.textContent = productName;
+      code.textContent = productCode ? `Code ${productCode}` : "";
+      code.hidden = !productCode;
+      const which = optionName.toLowerCase();
+      hint.textContent =
+        productCode && which
+          ? `Quote the part code when you get in touch, and let us know the ${which} you need.`
+          : productCode
+            ? "Quote the part code when you get in touch."
+            : which
+              ? `Let us know the ${which} you need.`
+              : "";
+      hint.hidden = !hint.textContent;
+      email.href = button.href;
+
+      // Reuse whichever size of the photo the page already loaded.
+      const photo = button.closest("[data-product]")?.querySelector<HTMLImageElement>("img[data-photo]");
+      if (photo) {
+        image.src = photo.currentSrc || photo.src;
+        image.alt = photo.alt;
+      }
+      image.classList.toggle("hidden", !photo);
+      placeholder.classList.toggle("hidden", Boolean(photo));
+
+      dialog.showModal();
+    });
+
+    // Close when the backdrop (outside the panel) is clicked.
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  }
+</script>

@@ -1,0 +1,163 @@
+---
+import type { GetStaticPaths } from "astro";
+import { Icon } from "astro-icon/components";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ContactBand from "@/components/ContactBand.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import { getCategories, sortSizes, type Category } from "@/lib/catalog";
+import { breadcrumbList } from "@/lib/schema";
+import { GROUPS, SITE_URL } from "@/consts";
+
+export const getStaticPaths = (async () => {
+  const categories = await getCategories();
+  return categories.map((category) => ({
+    params: { category: category.id },
+    props: { category, siblings: categories.filter((other) => other.group === category.group) },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  category: Category;
+  siblings: Category[];
+}
+
+const { category, siblings } = Astro.props;
+const group = GROUPS.find((g) => g.id === category.group)!;
+const sizes = sortSizes(category.products.flatMap((product) => product.fits));
+
+const trail = [
+  { name: "Home", href: "/" },
+  { name: group.title, href: `/collections/#${group.id}` },
+  { name: category.title, href: category.href },
+];
+
+const itemList = {
+  "@type": "ItemList",
+  name: category.title,
+  itemListElement: category.products.map((product, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    url: new URL(product.href, SITE_URL).href,
+    name: product.name,
+  })),
+};
+---
+
+<BaseLayout title={category.title} description={category.description} schema={[breadcrumbList(trail), itemList]}>
+  <div class="border-b border-stone-200 bg-stone-50">
+    <div class="wrap py-10">
+      <Breadcrumbs trail={trail} />
+      <h1 class="display mt-4 text-4xl sm:text-5xl">{category.title}</h1>
+      <p class="mt-3 max-w-2xl text-lg text-stone-600">{category.description}</p>
+    </div>
+  </div>
+
+  <div class="wrap mt-10 grid gap-10 lg:grid-cols-[14rem_1fr]">
+    <aside class="hidden lg:block">
+      <h2 class="eyebrow text-stone-500">{group.title}</h2>
+      <ul class="mt-3 space-y-0.5 text-sm">
+        {
+          siblings.map((sibling) => (
+            <li>
+              <a
+                href={sibling.href}
+                aria-current={sibling.id === category.id ? "page" : undefined}
+                class="flex justify-between gap-2 rounded-md px-3 py-2 hover:bg-stone-100 aria-[current=page]:bg-sun-100 aria-[current=page]:font-semibold aria-[current=page]:text-ink"
+              >
+                {sibling.title}
+                <span class="text-stone-400">{sibling.products.length}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </aside>
+
+    <div>
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <p class="text-sm text-stone-500" data-count aria-live="polite">
+          {category.products.length} {category.products.length === 1 ? "part" : "parts"}
+        </p>
+      </div>
+
+      {
+        sizes.length > 1 && (
+          <fieldset class="mt-4" data-size-filter>
+            <legend class="text-sm font-semibold text-ink">Filter by bin size</legend>
+            <div class="mt-2 flex flex-wrap gap-2">
+              {["All", ...sizes].map((size, i) => (
+                <label class="cursor-pointer">
+                  <input type="radio" name="size" value={i === 0 ? "" : size} checked={i === 0} class="peer sr-only" />
+                  <span class="inline-block rounded-full border border-stone-300 bg-white px-3.5 py-1.5 text-sm font-medium peer-checked:border-ink peer-checked:bg-ink peer-checked:text-white peer-focus-visible:outline-3 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-brand-600 hover:border-ink">
+                    {size}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        )
+      }
+
+      <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4" data-grid>
+        {category.products.map((product, i) => <ProductCard product={product} loading={i < 4 ? "eager" : "lazy"} />)}
+      </div>
+
+      <details class="mt-10 rounded-xl border border-stone-200 lg:hidden">
+        <summary class="flex cursor-pointer items-center justify-between p-4 font-semibold">
+          More in {group.title}
+          <Icon name="lucide:chevron-down" class="size-5 text-stone-400" />
+        </summary>
+        <ul class="border-t border-stone-200 p-2 text-sm">
+          {
+            siblings.map((sibling) => (
+              <li>
+                <a href={sibling.href} class="block rounded-md px-3 py-2.5 hover:bg-stone-100">
+                  {sibling.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </details>
+    </div>
+  </div>
+
+  <ContactBand />
+</BaseLayout>
+
+<script>
+  // Bin size filter on lid categories. The chosen size goes in the URL
+  // (?size=1100L) so a filtered list can be linked to.
+  const filter = document.querySelector<HTMLFieldSetElement>("[data-size-filter]");
+  const cards = [...document.querySelectorAll<HTMLElement>("[data-grid] > [data-product]")];
+  const count = document.querySelector("[data-count]");
+
+  function apply(size: string) {
+    let shown = 0;
+    for (const card of cards) {
+      const match = !size || (card.dataset.fits ?? "").split(" ").includes(size);
+      card.hidden = !match;
+      if (match) shown++;
+    }
+    if (count) count.textContent = `${shown} ${shown === 1 ? "part" : "parts"}${size ? ` for ${size} bins` : ""}`;
+  }
+
+  if (filter) {
+    const initial = new URLSearchParams(location.search).get("size") ?? "";
+    const radio = filter.querySelector<HTMLInputElement>(`input[value="${CSS.escape(initial)}"]`);
+    if (radio) {
+      radio.checked = true;
+      apply(initial);
+    }
+
+    filter.addEventListener("change", (event) => {
+      const size = (event.target as HTMLInputElement).value;
+      apply(size);
+      const url = new URL(location.href);
+      if (size) url.searchParams.set("size", size);
+      else url.searchParams.delete("size");
+      history.replaceState(null, "", url);
+    });
+  }
+</script>

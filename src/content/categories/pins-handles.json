@@ -1,0 +1,26 @@
+{
+  "title": "Pins & Handles",
+  "description": "Pins and handles for skip doors and fittings.",
+  "group": "skip-parts",
+  "order": 10,
+  "products": [
+    {
+      "id": "handle-bfd7118",
+      "name": "Handle (BFD7118)",
+      "code": "BFD7118",
+      "description": [],
+      "images": [
+        "handle-bfd7118.png"
+      ]
+    },
+    {
+      "id": "pin-bfd4959",
+      "name": "Pin",
+      "code": "BFD4959",
+      "description": [],
+      "images": [
+        "pin-bfd4959.png"
+      ]
+    }
+  ]
+}

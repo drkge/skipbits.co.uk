@@ -1,0 +1,44 @@
+---
+import ProductImage from "./ProductImage.astro";
+import AskButton from "./AskButton.astro";
+import type { Product } from "@/lib/catalog";
+
+interface Props {
+  product: Product;
+  loading?: "eager" | "lazy";
+}
+
+const { product, loading } = Astro.props;
+const options = product.options && `${product.options.choices.length} options`;
+const codes = [product.code, options].filter(Boolean).join(" · ");
+---
+
+<article
+  class="group relative flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition hover:border-stone-400 hover:shadow-lg hover:shadow-stone-900/5"
+  data-product
+  data-fits={product.fits.join(" ") || undefined}
+>
+  <ProductImage
+    image={product.photos[0]}
+    alt={product.name}
+    sizes="(min-width: 1280px) 280px, (min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
+    loading={loading}
+    class="border-b border-stone-100"
+  />
+  <div class="flex flex-1 flex-col p-4">
+    {codes && <p class="code">{codes}</p>}
+    <h3 class="mt-1 text-[0.95rem] leading-snug font-semibold">
+      <a href={product.href} class="after:absolute after:inset-0 hover:text-brand-600">
+        {product.name}
+      </a>
+    </h3>
+    {
+      product.fits.length > 0 && (
+        <p class="mt-2 text-xs text-stone-500">Fits {product.fits.join(", ")}</p>
+      )
+    }
+    <div class="mt-auto pt-4">
+      <AskButton product={product} class="relative z-10 w-full" />
+    </div>
+  </div>
+</article>

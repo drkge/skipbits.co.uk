@@ -1,0 +1,60 @@
+{
+  "title": "Plates for Skip Rollers",
+  "description": "Weld-on mounting plates for fitting skip rollers.",
+  "group": "skip-parts",
+  "order": 3,
+  "products": [
+    {
+      "id": "roller-mounting-plate-bfd7099",
+      "name": "Balebar Mounting Cheek Plate",
+      "code": "BFD7099",
+      "description": [],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "roller-mounting-plate-bfd7099.png",
+        "roller-mounting-plate-bfd7099-2.png"
+      ]
+    },
+    {
+      "id": "roller-mounting-plate-bfd6903",
+      "name": "Balebar Mounting Cheek Plate",
+      "code": "BFD6903",
+      "description": [],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "roller-mounting-plate-bfd6903.png",
+        "roller-mounting-plate-bfd6903-2.png"
+      ]
+    },
+    {
+      "id": "roller-mounting-plate-bfd6905",
+      "name": "Balebar Mounting Cheek Plate",
+      "code": "BFD6905",
+      "description": [],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "roller-mounting-plate-bfd6905.png",
+        "roller-mounting-plate-bfd6905-2.png"
+      ]
+    },
+    {
+      "id": "plate-for-skip-rollers",
+      "name": "Balebar Mounting Cheek Plate",
+      "code": "BFD7297",
+      "description": [],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "plate-for-skip-rollers.png",
+        "plate-for-skip-rollers-2.png"
+      ]
+    }
+  ]
+}

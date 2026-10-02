@@ -1,0 +1,218 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getImage } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import AskButton from "@/components/AskButton.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import ProductCard from "@/components/ProductCard.astro";
+import ProductImage from "@/components/ProductImage.astro";
+import { getCategories, getProducts, type Product } from "@/lib/catalog";
+import { enquiryMailto } from "@/lib/enquiry";
+import { breadcrumbList } from "@/lib/schema";
+import { BUSINESS, GROUPS, SITE_URL, TEL_HREF } from "@/consts";
+
+export const getStaticPaths = (async () => {
+  const products = await getProducts();
+  return products.map((product) => ({ params: { product: product.id }, props: { product } }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  product: Product;
+}
+
+const { product } = Astro.props;
+const category = (await getCategories()).find((c) => c.id === product.category.id)!;
+const group = GROUPS.find((g) => g.id === category.group)!;
+const related = category.products.filter((other) => other.id !== product.id).slice(0, 4);
+
+const trail = [
+  { name: "Home", href: "/" },
+  { name: group.title, href: `/collections/#${group.id}` },
+  { name: category.title, href: category.href },
+  { name: product.name, href: product.href },
+];
+
+const description =
+  product.description[0] ??
+  `${product.name}${product.code ? ` (${product.code})` : ""} from Skip Bits. Call or email for price and availability.`;
+
+const socialImage = product.photos[0] ? (await getImage({ src: product.photos[0], format: "png" })).src : undefined;
+
+const productSchema = {
+  "@type": "Product",
+  name: product.name,
+  url: new URL(product.href, SITE_URL).href,
+  ...(product.code && { sku: product.code, mpn: product.code }),
+  ...(product.description.length && { description: product.description.join(" ") }),
+  ...(socialImage && { image: new URL(socialImage, SITE_URL).href }),
+  category: category.title,
+};
+---
+
+<BaseLayout
+  title={product.code ? `${product.name} (${product.code})` : product.name}
+  description={description}
+  image={socialImage}
+  schema={[breadcrumbList(trail), productSchema]}
+>
+  <div class="wrap pt-8">
+    <Breadcrumbs trail={trail} />
+  </div>
+
+  <div class="wrap mt-8 grid gap-10 lg:grid-cols-2 lg:gap-16" data-product>
+    <div>
+      <ProductImage
+        image={product.photos[0]}
+        alt={product.name}
+        sizes="(min-width: 1280px) 600px, (min-width: 1024px) 45vw, 100vw"
+        widths={[360, 480, 720, 960, 1200]}
+        loading="eager"
+        class="rounded-2xl border border-stone-200"
+      />
+      {
+        product.photos.length > 1 && (
+          <ul class="mt-3 grid grid-cols-4 gap-3 sm:grid-cols-5" data-thumbs>
+            {product.photos.map((photo, i) => (
+              <li>
+                <button
+                  type="button"
+                  class="block w-full overflow-hidden rounded-lg border border-stone-200 aria-pressed:border-ink aria-pressed:ring-2 aria-pressed:ring-ink"
+                  aria-pressed={i === 0 ? "true" : "false"}
+                  aria-label={`Show photo ${i + 1} of ${product.photos.length}`}
+                  data-index={i}
+                >
+                  <ProductImage image={photo} alt="" sizes="120px" widths={[120, 240]} />
+                </button>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+      {
+        /* Full-size versions for the thumbnails to swap in. */
+        product.photos.length > 1 && (
+          <template data-photos>
+            {product.photos.map((photo) => (
+              <ProductImage
+                image={photo}
+                alt={product.name}
+                sizes="(min-width: 1280px) 600px, (min-width: 1024px) 45vw, 100vw"
+                widths={[360, 480, 720, 960, 1200]}
+              />
+            ))}
+          </template>
+        )
+      }
+    </div>
+
+    <div>
+      <a href={category.href} class="eyebrow text-brand-600 hover:underline">{category.title}</a>
+      <h1 class="display mt-3 text-3xl leading-tight sm:text-4xl">{product.name}</h1>
+      {product.code && <p class="mt-2 font-mono text-stone-500">Code {product.code}</p>}
+
+      {
+        product.fits.length > 0 && (
+          <div class="mt-5 flex flex-wrap items-center gap-2">
+            <span class="text-sm font-semibold text-ink">Fits</span>
+            {product.fits.map((size) => (
+              <a
+                href={`/collections/trade-waste-lids/?size=${size}`}
+                class="rounded-full bg-sun-100 px-3 py-1 text-sm font-medium text-ink hover:bg-sun-300"
+              >
+                {size}
+              </a>
+            ))}
+          </div>
+        )
+      }
+
+      {
+        product.options && (
+          <div class="mt-6 overflow-hidden rounded-xl border border-stone-200">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-stone-50 text-ink">
+                <tr>
+                  <th scope="col" class="px-4 py-3 font-semibold">{product.options.name}</th>
+                  {product.options.choices.some((choice) => choice.code) && (
+                    <th scope="col" class="px-4 py-3 font-semibold">Code</th>
+                  )}
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-stone-100">
+                {product.options.choices.map((choice) => (
+                  <tr>
+                    <td class="px-4 py-2.5">{choice.name}</td>
+                    {choice.code && <td class="px-4 py-2.5 font-mono text-stone-600">{choice.code}</td>}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )
+      }
+
+      <div class="mt-8 rounded-2xl bg-stone-50 p-6">
+        <p class="font-semibold text-ink">Get in touch for pricing and availability</p>
+        <p class="mt-1 text-sm text-stone-600">Phone is quickest. Quote the part code and the quantity you need.</p>
+        <div class="mt-5 grid gap-3 sm:grid-cols-2">
+          <AskButton product={product} size="lg" />
+          <a href={TEL_HREF} class="btn btn-outline">
+            <Icon name="lucide:phone" class="size-5" />
+            {BUSINESS.telephoneDisplay}
+          </a>
+        </div>
+        <a href={enquiryMailto(product)} class="mt-4 inline-flex items-center gap-2 text-sm text-stone-600 hover:text-ink">
+          <Icon name="lucide:mail" class="size-4" />
+          Or email {BUSINESS.email}
+        </a>
+      </div>
+
+      {
+        product.description.length > 0 && (
+          <div class="mt-8 max-w-prose space-y-4 text-[1.0625rem] leading-relaxed">
+            {product.description.map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
+        )
+      }
+    </div>
+  </div>
+
+  {
+    related.length > 0 && (
+      <section class="wrap mt-20" aria-labelledby="related">
+        <div class="flex items-end justify-between gap-4">
+          <h2 id="related" class="display text-2xl sm:text-3xl">
+            More {category.title.toLowerCase()}
+          </h2>
+          <a href={category.href} class="inline-flex shrink-0 items-center gap-1 font-semibold text-brand-600 hover:underline">
+            View all
+            <Icon name="lucide:arrow-right" class="size-4" />
+          </a>
+        </div>
+        <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          {related.map((other) => <ProductCard product={other} />)}
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>
+
+<script>
+  // Thumbnails swap the main photo for the matching full-size one.
+  const thumbs = document.querySelector("[data-thumbs]");
+  const photos = document.querySelector<HTMLTemplateElement>("template[data-photos]");
+  const main = document.querySelector<HTMLImageElement>("[data-product] img[data-photo]");
+
+  thumbs?.addEventListener("click", (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>("button[data-index]");
+    if (!button || !photos || !main) return;
+    const full = photos.content.querySelectorAll<HTMLImageElement>("img[data-photo]")[Number(button.dataset.index)];
+    if (!full) return;
+    main.srcset = full.srcset;
+    main.src = full.src;
+    for (const other of thumbs.querySelectorAll("button")) other.setAttribute("aria-pressed", String(other === button));
+  });
+</script>

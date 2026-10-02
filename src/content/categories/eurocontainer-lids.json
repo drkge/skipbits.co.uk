@@ -1,0 +1,68 @@
+{
+  "title": "Eurocontainer Lids",
+  "description": "Replacement lids for Eurocontainers.",
+  "group": "lids",
+  "order": 19,
+  "products": [
+    {
+      "id": "rel-master-1014mm-x-1299mm-eurocontainer-copy",
+      "name": "REL Slave - 973mm x 1295mm (Eurocontainer)",
+      "code": "EA3853SM",
+      "description": [
+        "The REL Master is a durable Eurocontainer that prevents water ingress with its overlapping pair. Its nestable design makes it perfect for cost-effective freight, and its patented CCE lock ensures security. With 2 moulded-in handles and 3 extra-strong hinges, this container is built to last. The interlocking hinges and 5 ribs provide optimal strength.",
+        "Overlapping watertight pair of lids to fit 2.5 & 5 cubic metre Euro containers."
+      ],
+      "alsoIn": [
+        "rear-end-loader-rel-lids"
+      ],
+      "images": [
+        "rel-master-1014mm-x-1299mm-eurocontainer-copy.jpg"
+      ]
+    },
+    {
+      "id": "rel-master-1014mm-x-1299mm-eurocontainer",
+      "name": "REL Master - 1014mm x 1299mm (Eurocontainer)",
+      "code": "EA3853MM",
+      "description": [
+        "The REL Master is a durable Eurocontainer that prevents water ingress with its overlapping pair. Its nestable design makes it perfect for cost-effective freight, and its patented CCE lock ensures security. With 2 moulded-in handles and 3 extra-strong hinges, this container is built to last. The interlocking hinges and 5 ribs provide optimal strength.",
+        "Overlapping watertight pair of lids to fit 2.5 & 5 cubic metre Euro containers."
+      ],
+      "alsoIn": [
+        "rear-end-loader-rel-lids"
+      ],
+      "images": [
+        "rel-master-1014mm-x-1299mm-eurocontainer.jpg"
+      ]
+    },
+    {
+      "id": "rel-recycling-lid-with-rain-hood-976mm-x-1301mm-eurocontainer",
+      "name": "REL Recycling Lid With Rain Hood - 976mm x 1301mm (Eurocontainer)",
+      "code": "EA3853RM",
+      "description": [
+        "This product is designed with 5 reinforced ribs and 3 hinge blocks for maximum strength. The hinges interlock when the lids are placed back to back, providing additional security. Compatible with the patented CCE lock for added protection.",
+        "Recycling lid with rain hood for collection of paper."
+      ],
+      "alsoIn": [
+        "rear-end-loader-rel-lids"
+      ],
+      "images": [
+        "rel-recycling-lid-with-rain-hood-976mm-x-1301mm-eurocontainer.jpg"
+      ]
+    },
+    {
+      "id": "rel-trade-976mm-x-1301mm-eurocontainer",
+      "name": "REL Trade - 976mm x 1301mm (Eurocontainer)",
+      "code": "EA3853",
+      "description": [
+        "Streamline your shipping process with our nestable storage container. Personalize with a name plate and secure with a patented CCE lock. The durable design features 3 hinges and 5 ribs for extra strength, while 2 handles make it easy to open and close. Cost-effective and reliable for all your freight needs.",
+        "To fit 2.5 & 5 cubic metre Euro Container."
+      ],
+      "alsoIn": [
+        "rear-end-loader-rel-lids"
+      ],
+      "images": [
+        "rel-trade-976mm-x-1301mm-eurocontainer.jpg"
+      ]
+    }
+  ]
+}

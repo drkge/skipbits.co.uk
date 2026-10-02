@@ -1,0 +1,38 @@
+{
+  "title": "Cheek Plates for Curved Bars",
+  "description": "Cheek plates to suit our curved bars.",
+  "group": "skip-parts",
+  "order": 7,
+  "products": [
+    {
+      "id": "cheek-plate-for-curved-bar-bfd6904",
+      "name": "Balebar Mounting Cheek Plate",
+      "code": "BFD6904",
+      "description": [
+        "Increase the safety and stability of your curved bar with our high-quality cheek plates. Designed to provide a secure fit, these plates offer additional support and durability to your workouts. Perfect for weightlifting or bodybuilding, our plates ensure the best possible performance and results."
+      ],
+      "alsoIn": [
+        "curved-bars"
+      ],
+      "images": [
+        "cheek-plate-for-curved-bar-bfd6904.png",
+        "cheek-plate-for-curved-bar-bfd6904-2.png"
+      ]
+    },
+    {
+      "id": "cheek-plate-for-curved-bar-bfd7296",
+      "name": "Balebar Mounting Cheek Plate",
+      "code": "BFD7296",
+      "description": [
+        "Increase the safety and stability of your curved bar with our high-quality cheek plates. Designed to provide a secure fit, these plates offer additional support and durability to your workouts. Perfect for weightlifting or bodybuilding, our plates ensure the best possible performance and results."
+      ],
+      "alsoIn": [
+        "curved-bars"
+      ],
+      "images": [
+        "cheek-plate-for-curved-bar-bfd7296.png",
+        "cheek-plate-for-curved-bar-bfd7296-2.png"
+      ]
+    }
+  ]
+}

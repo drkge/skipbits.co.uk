@@ -1,0 +1,48 @@
+{
+  "title": "Shafts for Skip Rollers",
+  "description": "Replacement shafts to suit our skip rollers.",
+  "group": "skip-parts",
+  "order": 2,
+  "products": [
+    {
+      "id": "shaft-for-skip-rollers-bfd6267",
+      "name": "Roller Axle Rod",
+      "code": "BFD6267",
+      "description": [
+        "Increase the durability and lifespan of your skip rollers with our Mild Steel Shaft (BFD6267). Measuring 40mm in diameter and 350mm in length, it is specifically designed for use with 40mm bar rollers. With a grease nipple on each end, it allows for easy lubrication while the roller is still installed, ensuring smooth and efficient operation. Upgrade now for long-lasting performance."
+      ],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "shaft-for-skip-rollers-bfd6267.png"
+      ]
+    },
+    {
+      "id": "shaft-for-skip-rollers-bfd5712",
+      "name": "Roller Axle Rod",
+      "code": "BFD5712",
+      "description": [
+        "This shaft for skip rollers is made of mild steel and self-colored for durability. With a diameter of 35mm and a length of 320mm, it is suitable for rollers using 35 - 38mm bar. The shaft comes with a grease nipple on each end for easy lubrication while the roller is in use. Keep your rollers running smoothly with this high-quality shaft."
+      ],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "shaft-for-skip-rollers-bfd5712.png"
+      ]
+    },
+    {
+      "id": "shaft-for-skip-rollers-bfd7080",
+      "name": "Roller Axle Rod",
+      "code": "BFD7080",
+      "description": [],
+      "alsoIn": [
+        "skip-rollers"
+      ],
+      "images": [
+        "shaft-for-skip-rollers-bfd7080.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+---
+import { Icon } from "astro-icon/components";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import CategoryCard from "@/components/CategoryCard.astro";
+import ContactBand from "@/components/ContactBand.astro";
+import ProductImage from "@/components/ProductImage.astro";
+import { getCategories, getProducts } from "@/lib/catalog";
+import { BUSINESS, FEATURED_CATEGORIES, GROUPS, SITE_TITLE, TEL_HREF } from "@/consts";
+
+const categories = await getCategories();
+const products = await getProducts();
+const featured = FEATURED_CATEGORIES.map((id) => categories.find((category) => category.id === id)).filter(
+  (category) => category !== undefined,
+);
+
+// A few photographed parts from different categories for the hero.
+const heroParts = ["skip-lugs", "skip-hinges", "skip-rollers", "trade-waste-lids"]
+  .map((id) => categories.find((category) => category.id === id)?.products.find((product) => product.photos.length))
+  .filter((product) => product !== undefined);
+
+const groups = GROUPS.map((group) => {
+  const inGroup = categories.filter((category) => category.group === group.id);
+  return { ...group, categories: inGroup, count: new Set(inGroup.flatMap((c) => c.own)).size };
+});
+
+const steps = [
+  { icon: "lucide:search", title: "Find your part", text: "Browse by category or search by name or part code." },
+  { icon: "lucide:tag", title: "Ask for a price", text: "Call or email us with the part code and quantity you need." },
+  { icon: "lucide:truck", title: "We'll sort the rest", text: "We'll confirm price and availability and arrange collection or delivery." },
+];
+---
+
+<BaseLayout title={SITE_TITLE}>
+  <section class="border-b border-stone-200 bg-stone-50">
+    <div class="wrap grid items-center gap-12 py-14 lg:grid-cols-[1.1fr_1fr] lg:py-20">
+      <div>
+        <p class="eyebrow text-brand-600">Skip &amp; container parts</p>
+        <h1 class="display mt-4 text-4xl leading-[1.05] sm:text-5xl lg:text-6xl">
+          Parts for skips, containers <span class="highlight">and bins</span>
+        </h1>
+        <p class="mt-6 max-w-xl text-lg">
+          Rollers, hinges, lugs and door locks, replacement lids, castors and bin spares — {products.length} parts and
+          counting, from the team at {BUSINESS.parent.name}.
+        </p>
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href="/collections/" class="btn btn-primary">
+            Browse all parts
+            <Icon name="lucide:arrow-right" class="size-5" />
+          </a>
+          <a href={TEL_HREF} class="btn btn-outline">
+            <Icon name="lucide:phone" class="size-5" />
+            {BUSINESS.telephoneDisplay}
+          </a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -inset-3 -rotate-2 rounded-3xl bg-sun-400" aria-hidden="true"></div>
+        <div class="relative grid grid-cols-2 gap-3 rounded-2xl bg-white p-3 shadow-xl shadow-stone-900/10">
+          {
+            heroParts.map((product, i) => (
+              <a href={product.href} class="overflow-hidden rounded-xl border border-stone-100 hover:border-stone-300">
+                <ProductImage
+                  image={product.photos[0]}
+                  alt={product.name}
+                  sizes="(min-width: 1024px) 260px, 45vw"
+                  loading={i < 2 ? "eager" : "lazy"}
+                />
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap mt-16" aria-labelledby="departments">
+    <h2 id="departments" class="display text-3xl">Shop by department</h2>
+    <div class="mt-6 grid gap-4 md:grid-cols-3">
+      {
+        groups.map((group) => (
+          <a
+            href={`/collections/#${group.id}`}
+            class="group flex flex-col rounded-xl border border-stone-200 p-6 transition hover:border-ink"
+          >
+            <span class="eyebrow text-stone-500">{group.count} parts</span>
+            <span class="display mt-2 text-2xl group-hover:text-brand-600">{group.title}</span>
+            <span class="mt-2 text-stone-600">{group.blurb}</span>
+            <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">
+              {group.categories.length} categories
+              <Icon name="lucide:arrow-right" class="size-4 transition group-hover:translate-x-0.5" />
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="wrap mt-16" aria-labelledby="popular">
+    <div class="flex items-end justify-between gap-4">
+      <h2 id="popular" class="display text-3xl">Popular categories</h2>
+      <a href="/collections/" class="hidden items-center gap-1 font-semibold text-brand-600 hover:underline sm:inline-flex">
+        View all
+        <Icon name="lucide:arrow-right" class="size-4" />
+      </a>
+    </div>
+    <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+      {featured.map((category) => <CategoryCard category={category} />)}
+    </div>
+  </section>
+
+  <section class="wrap mt-20" aria-labelledby="how">
+    <h2 id="how" class="display text-3xl">How ordering works</h2>
+    <ol class="mt-6 grid gap-4 md:grid-cols-3">
+      {
+        steps.map((step, i) => (
+          <li class="rounded-xl bg-stone-50 p-6">
+            <div class="flex items-center gap-3">
+              <span class="flex size-10 items-center justify-center rounded-full bg-ink text-white">
+                <Icon name={step.icon} class="size-5" />
+              </span>
+              <span class="eyebrow text-stone-500">Step {i + 1}</span>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold">{step.title}</h3>
+            <p class="mt-1 text-stone-600">{step.text}</p>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <ContactBand />
+</BaseLayout>

@@ -1,0 +1,56 @@
+{
+  "title": "Door Lock Components",
+  "description": "Door locks, bolts and catches for skip and container doors.",
+  "group": "skip-parts",
+  "order": 12,
+  "products": [
+    {
+      "id": "38mm-hole",
+      "name": "Profile Door Locking Snail (38mm Hole)",
+      "code": "BFD4542",
+      "description": [],
+      "images": [
+        "38mm-hole.png",
+        "38mm-hole-2.png"
+      ]
+    },
+    {
+      "id": "44mm-hole",
+      "name": "Profile Door Locking Snail (44mm Hole)",
+      "code": "BFD4172",
+      "description": [],
+      "images": [
+        "44mm-hole.png",
+        "44mm-hole-2.png"
+      ]
+    },
+    {
+      "id": "42mm-hole",
+      "name": "Profile Door Locking Snail (42mm Hole)",
+      "code": "BFD6741",
+      "description": [],
+      "images": [
+        "42mm-hole.png",
+        "42mm-hole-2.png"
+      ]
+    },
+    {
+      "id": "door-lock-plate",
+      "name": "Door Lock Plate",
+      "code": "BFD7298",
+      "description": [],
+      "images": [
+        "door-lock-plate.png"
+      ]
+    },
+    {
+      "id": "double-legged-u-bar",
+      "name": "Double Legged U-Bar",
+      "code": "BFD6919",
+      "description": [],
+      "images": [
+        "double-legged-u-bar.png"
+      ]
+    }
+  ]
+}

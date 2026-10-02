@@ -1,0 +1,14 @@
+---
+import { Image } from "astro:assets";
+import logo from "@/assets/logo.png";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className = "h-14 w-auto" } = Astro.props;
+---
+
+<a href="/" class="inline-flex shrink-0 items-center" aria-label="Skip Bits home">
+  <Image src={logo} alt="Skip Bits" class={className} widths={[80, 160, 238]} sizes="80px" loading="eager" />
+</a>

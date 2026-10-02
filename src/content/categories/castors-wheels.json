@@ -1,0 +1,78 @@
+{
+  "title": "Castors & Wheels",
+  "description": "Castors, wheels and tyres for wheelie bins and four-wheeled containers.",
+  "group": "bin-spares",
+  "order": 26,
+  "products": [
+    {
+      "id": "200mm-wheels-wheelie-bin-wheels",
+      "name": "200mm Wheels (wheelie bin wheels)",
+      "code": "C240S",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "castor-fixing-kit-per-castor",
+      "name": "Castor Fixing Kit- Per castor",
+      "code": "UC160FK",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "160mm-black-tyre-wheel-only",
+      "name": "160mm Black Tyre (wheel only)",
+      "code": "C160S0",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "200mm-black-tyre-wheel-only",
+      "name": "200mm Black Tyre (wheel only)",
+      "code": "C200S0",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "160mm-brake-castors",
+      "name": "160mm Brake Castors",
+      "code": "C160S1",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "160mm-non-brake-castors",
+      "name": "160mm Non Brake Castors",
+      "code": "C160S2",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "200mm-non-brake-towing-castor",
+      "name": "200mm Non Brake Towing Castor",
+      "code": "C200T2",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "200mm-braked-towing-castor",
+      "name": "200mm Braked Towing Castor",
+      "code": "C200T41",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "200mm-free-swivel-braked-castor-bud",
+      "name": "200mm Free Swivel Braked Castor - Bud",
+      "code": "C200S1B",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "200mm-non-brake-castors-bud",
+      "name": "200mm Non Brake Castors - Bud",
+      "code": "C200S2B",
+      "description": [],
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+---
+import { Icon } from "astro-icon/components";
+import Logo from "./Logo.astro";
+import { NAV, BUSINESS, TEL_HREF, MAILTO_HREF } from "@/consts";
+
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => href === path;
+---
+
+<div class="hidden bg-ink text-sm text-stone-300 md:block">
+  <div class="wrap flex h-9 items-center justify-between">
+    <p>Skip &amp; container parts · Lugton, Ayrshire</p>
+    <div class="flex items-center gap-6">
+      <a href={MAILTO_HREF} class="inline-flex items-center gap-2 transition-colors hover:text-white">
+        <Icon name="lucide:mail" class="size-4" />
+        {BUSINESS.email}
+      </a>
+      <a href={TEL_HREF} class="inline-flex items-center gap-2 font-semibold text-white transition-colors hover:text-sun-400">
+        <Icon name="lucide:phone" class="size-4" />
+        {BUSINESS.telephoneDisplay}
+      </a>
+    </div>
+  </div>
+</div>
+
+<header class="sticky top-0 z-40 border-b border-stone-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85">
+  <div class="wrap flex h-20 items-center gap-4 lg:gap-8">
+    <Logo class="h-14 w-auto" />
+
+    <nav aria-label="Main" class="hidden lg:block">
+      <ul class="flex items-center gap-1">
+        {
+          NAV.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                aria-current={isCurrent(item.href) ? "page" : undefined}
+                class="rounded-md px-3 py-2 font-semibold text-stone-700 transition-colors hover:text-ink aria-[current=page]:text-brand-600"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <form action="/search/" method="get" role="search" class="ml-auto hidden md:block">
+      <label class="relative block">
+        <span class="sr-only">Search parts by name or code</span>
+        <Icon name="lucide:search" class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-stone-400" />
+        <input
+          type="search"
+          name="q"
+          placeholder="Search name or part code"
+          class="h-11 w-56 rounded-lg border border-stone-300 bg-white pr-3 pl-9 text-sm text-ink placeholder:text-stone-400 focus:border-ink focus:outline-none xl:w-72"
+        />
+      </label>
+    </form>
+
+    <div class="ml-auto flex items-center gap-2 md:ml-0">
+      <a href={TEL_HREF} class="btn btn-primary hidden sm:inline-flex">
+        <Icon name="lucide:phone" class="size-4" />
+        Call us
+      </a>
+      <a
+        href={TEL_HREF}
+        class="inline-flex size-11 items-center justify-center rounded-lg border border-stone-200 text-ink sm:hidden"
+        aria-label={`Call us on ${BUSINESS.telephoneDisplay}`}
+      >
+        <Icon name="lucide:phone" class="size-5" />
+      </a>
+      <button
+        type="button"
+        class="group inline-flex size-11 items-center justify-center rounded-lg border border-stone-200 text-ink lg:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Menu"
+        data-menu-toggle
+      >
+        <Icon name="lucide:menu" class="size-5 group-aria-expanded:hidden" />
+        <Icon name="lucide:x" class="hidden size-5 group-aria-expanded:block" />
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="border-t border-stone-200 bg-white lg:hidden" hidden>
+    <nav aria-label="Mobile" class="wrap py-4">
+      <form action="/search/" method="get" role="search" class="md:hidden">
+        <label class="relative block">
+          <span class="sr-only">Search parts by name or code</span>
+          <Icon name="lucide:search" class="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-stone-400" />
+          <input
+            type="search"
+            name="q"
+            placeholder="Search name or part code"
+            class="h-12 w-full rounded-lg border border-stone-300 bg-white pr-3 pl-9 text-base text-ink placeholder:text-stone-400 focus:border-ink focus:outline-none"
+          />
+        </label>
+      </form>
+      <ul class="mt-2 divide-y divide-stone-100">
+        <li>
+          <a href="/collections/" class="flex items-center justify-between py-4 text-lg font-semibold text-ink">
+            All parts
+            <Icon name="lucide:chevron-right" class="size-5 text-stone-400" />
+          </a>
+        </li>
+        {
+          NAV.map((item) => (
+            <li>
+              <a href={item.href} class="flex items-center justify-between py-4 text-lg font-semibold text-ink">
+                {item.label}
+                <Icon name="lucide:chevron-right" class="size-5 text-stone-400" />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <div class="mt-4 grid gap-3 pb-2 sm:grid-cols-2">
+        <a href={TEL_HREF} class="btn btn-primary">
+          <Icon name="lucide:phone" class="size-4" />
+          {BUSINESS.telephoneDisplay}
+        </a>
+        <a href={MAILTO_HREF} class="btn btn-outline">
+          <Icon name="lucide:mail" class="size-4" />
+          Email us
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>("[data-menu-toggle]");
+  const menu = document.getElementById("mobile-menu");
+
+  function setOpen(open: boolean) {
+    if (!toggle || !menu) return;
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Menu");
+    menu.hidden = !open;
+  }
+
+  toggle?.addEventListener("click", () => {
+    setOpen(toggle.getAttribute("aria-expanded") !== "true");
+  });
+
+  // Same-page anchor links (e.g. /collections/#lids) don't reload, so close
+  // the menu ourselves.
+  menu?.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement).closest("a")) setOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu && !menu.hidden) {
+      setOpen(false);
+      toggle?.focus();
+    }
+  });
+
+  // The menu is lg:hidden, so close it if the window grows past that.
+  matchMedia("(min-width: 1024px)").addEventListener("change", (e) => {
+    if (e.matches) setOpen(false);
+  });
+</script>

@@ -1,0 +1,36 @@
+{
+  "title": "Eurobin Accessories",
+  "description": "Spare parts and accessories for Eurobins.",
+  "group": "skip-parts",
+  "order": 16,
+  "products": [
+    {
+      "id": "eurobin-accessory-bfd7516",
+      "name": "Eurobin Accessory",
+      "code": "BFD7516",
+      "description": [],
+      "images": [
+        "eurobin-accessory-bfd7516.png",
+        "eurobin-accessory-bfd7516-2.png"
+      ]
+    },
+    {
+      "id": "eurobin-accessory-bfd3816",
+      "name": "Trade Waste Lid Hinge",
+      "code": "BFD3816",
+      "description": [],
+      "images": [
+        "eurobin-accessory-bfd3816.png"
+      ]
+    },
+    {
+      "id": "eurobin-accessory-bfd3518",
+      "name": "Trade Waste Lid Hinge",
+      "code": "BFD3518",
+      "description": [],
+      "images": [
+        "eurobin-accessory-bfd3518.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Skip Lugs",
+  "description": "Forged lifting lugs for chain-lift skips.",
+  "group": "skip-parts",
+  "order": 6,
+  "products": [
+    {
+      "id": "skip-lug-mounting-plate",
+      "name": "Lug Reinforcing Side Plate",
+      "code": "BFD7340",
+      "description": [
+        "Enhance the stability of your skip lugs with our Skip Lug Mounting Plate. Made of durable materials, this mounting plate provides an improved grip and secure installation for your skip lugs. Perfect for heavy-duty industrial settings. Increase efficiency and safety with our Skip Lug Mounting Plate."
+      ],
+      "images": [
+        "skip-lug-mounting-plate.png",
+        "skip-lug-mounting-plate-2.png"
+      ]
+    },
+    {
+      "id": "bfd2658-skip-lug-copy",
+      "name": "Skip Lug Flush Mount",
+      "code": "BFD5045",
+      "description": [],
+      "images": [
+        "bfd2658-skip-lug-copy.png",
+        "bfd2658-skip-lug-copy-2.png"
+      ]
+    },
+    {
+      "id": "bfd1187-skip-lug-copy",
+      "name": "Skip Lug Shepperd Meiller",
+      "code": "BFD2658",
+      "description": [],
+      "images": [
+        "bfd1187-skip-lug-copy.png",
+        "bfd1187-skip-lug-copy-2.png"
+      ]
+    },
+    {
+      "id": "bfd1187-skip-lug",
+      "name": "Skip Lug Standard",
+      "code": "BFD1187",
+      "description": [],
+      "images": [
+        "bfd1187-skip-lug.png",
+        "bfd1187-skip-lug-2.png"
+      ]
+    }
+  ]
+}

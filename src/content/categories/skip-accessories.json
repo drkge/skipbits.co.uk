@@ -1,0 +1,261 @@
+{
+  "title": "Skip Accessories",
+  "description": "Tailboard fittings, forkets, bolts and other skip accessories.",
+  "group": "skip-parts",
+  "order": 17,
+  "products": [
+    {
+      "id": "cattle-ramp-fastener",
+      "name": "Cattle Ramp Fastener",
+      "code": "BFD7520",
+      "description": [],
+      "images": [
+        "cattle-ramp-fastener.png"
+      ]
+    },
+    {
+      "id": "forket-pin-for-5-8",
+      "name": "Forket Pin for 5/8\"",
+      "code": "BFD7547",
+      "description": [],
+      "images": [
+        "forket-pin-for-5-8.png"
+      ]
+    },
+    {
+      "id": "strap-assembly",
+      "name": "Strap Assembly",
+      "code": "BFD4694",
+      "description": [],
+      "images": [
+        "strap-assembly.png"
+      ]
+    },
+    {
+      "id": "lashing-ring-staple-set",
+      "name": "Ferry Lashing Ring",
+      "code": "BFD3241",
+      "description": [],
+      "images": [
+        "lashing-ring-staple-set.png"
+      ]
+    },
+    {
+      "id": "rope-hook",
+      "name": "Standard Weld on Rope Hook",
+      "code": "BFD5083",
+      "description": [],
+      "images": [
+        "rope-hook.png"
+      ]
+    },
+    {
+      "id": "weld-on-tailboard-forket-with-tail",
+      "name": "Weld On Tailboard Forket with Tail",
+      "options": {
+        "name": "Size",
+        "choices": [
+          {
+            "name": "3/4\" Forket with Tail",
+            "code": "BFD7526"
+          },
+          {
+            "name": "5/8\" Forket with Tail",
+            "code": "BFD7546"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "weld-on-tailboard-forket-with-tail.png"
+      ]
+    },
+    {
+      "id": "weld-on-tailboard-forkets",
+      "name": "Weld On Tailboard Forkets",
+      "options": {
+        "name": "Size",
+        "choices": [
+          {
+            "name": "3/4\" Tailboard Forket",
+            "code": "BFD7524"
+          },
+          {
+            "name": "5/8\" Tailboard Forket",
+            "code": "BFD7525"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "weld-on-tailboard-forkets.png"
+      ]
+    },
+    {
+      "id": "forket-pin-for-3-4",
+      "name": "Forket Pin for 3/4”",
+      "code": "BFD7538",
+      "description": [],
+      "images": [
+        "forket-pin-for-3-4.png"
+      ]
+    },
+    {
+      "id": "tailboard-lugs",
+      "name": "Tailboard Lugs",
+      "options": {
+        "name": "Size",
+        "choices": [
+          {
+            "name": "3/4\" Tailboard Lug",
+            "code": "BFD7527"
+          },
+          {
+            "name": "5/8\" Tailboard Lug",
+            "code": "BFD7539"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "tailboard-lugs.png"
+      ]
+    },
+    {
+      "id": "fastening-lug-screw-type",
+      "name": "Anti Loose Pin Bolt On",
+      "code": "BFD5092",
+      "description": [],
+      "images": [
+        "fastening-lug-screw-type.png"
+      ]
+    },
+    {
+      "id": "fastening-lug-weld-type",
+      "name": "Anti Loose Weld On",
+      "code": "BFD5091",
+      "description": [],
+      "images": [
+        "fastening-lug-weld-type.png"
+      ]
+    },
+    {
+      "id": "chain",
+      "name": "Chain",
+      "code": "BFD7523",
+      "description": [],
+      "images": [
+        "chain.png"
+      ]
+    },
+    {
+      "id": "spring-lock-chain",
+      "name": "Dog Chain",
+      "code": "BFD7522",
+      "description": [],
+      "images": [
+        "spring-lock-chain.png"
+      ]
+    },
+    {
+      "id": "locking-bar-set",
+      "name": "Locking Bar",
+      "code": "BFD5132",
+      "description": [],
+      "images": [
+        "locking-bar-set.png"
+      ]
+    },
+    {
+      "id": "locking-pin",
+      "name": "Locking Pin",
+      "code": "BFD4428",
+      "description": [],
+      "images": [
+        "locking-pin.png"
+      ]
+    },
+    {
+      "id": "pallet-feet",
+      "name": "Pallet Foot",
+      "code": "BFD7521",
+      "description": [],
+      "images": [
+        "pallet-feet.png"
+      ]
+    },
+    {
+      "id": "ramp-fastener",
+      "name": "Ramp Fastener",
+      "description": [
+        "With M16 ACME threaded type and included ramp receiver, it provides maximum stability and easy installation."
+      ],
+      "images": [
+        "ramp-fastener.png"
+      ]
+    },
+    {
+      "id": "spring-loaded-bolt",
+      "name": "Spring Loaded Bolt",
+      "options": {
+        "name": "Diameter",
+        "choices": [
+          {
+            "name": "10mm",
+            "code": "BFD5131"
+          },
+          {
+            "name": "12mm",
+            "code": "BFD5130"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "spring-loaded-bolt.png"
+      ]
+    },
+    {
+      "id": "hinge-pin",
+      "name": "Hinge Pin",
+      "code": "BFD7519",
+      "description": [],
+      "images": [
+        "hinge-pin.png"
+      ]
+    },
+    {
+      "id": "spade-hinge",
+      "name": "Spade Hinge",
+      "code": "BFD7518",
+      "description": [],
+      "images": [
+        "spade-hinge.png"
+      ]
+    },
+    {
+      "id": "strap-hinge",
+      "name": "Strap Hinge",
+      "options": {
+        "name": "Length",
+        "choices": [
+          {
+            "name": "BFD6317"
+          },
+          {
+            "name": "BFD6571"
+          },
+          {
+            "name": "BFD7517"
+          }
+        ]
+      },
+      "description": [],
+      "images": [
+        "strap-hinge.png",
+        "strap-hinge-2.png",
+        "strap-hinge-3.png"
+      ]
+    }
+  ]
+}

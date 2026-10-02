@@ -1,0 +1,52 @@
+{
+  "title": "Ratchet Load Binders",
+  "description": "Ratchet load binders for securing loads.",
+  "group": "skip-parts",
+  "order": 13,
+  "products": [
+    {
+      "id": "3-8-ratchet-load-binder-red",
+      "name": "3/8\" Ratchet Load Binder (Red)",
+      "code": "BFD7514",
+      "description": [
+        "Suitable for use with M20 Bolts"
+      ],
+      "images": [
+        "3-8-ratchet-load-binder-red.png"
+      ]
+    },
+    {
+      "id": "5-8-ratchet-load-binder-red",
+      "name": "5/8\" Ratchet Load Binder (Red)",
+      "code": "BFD7515",
+      "description": [
+        "Suitable for use with M24 Bolts"
+      ],
+      "images": [
+        "5-8-ratchet-load-binder-red.png"
+      ]
+    },
+    {
+      "id": "5-8-ratchet-load-binder-yellow-copy",
+      "name": "5/8\" Ratchet Load Binder (Yellow)",
+      "code": "BFD6018",
+      "description": [
+        "Suitable for use with M24 Bolts"
+      ],
+      "images": [
+        "5-8-ratchet-load-binder-yellow-copy.png"
+      ]
+    },
+    {
+      "id": "3-8-ratchet-load-binder-yellow",
+      "name": "3/8\" Ratchet Load Binder (Yellow)",
+      "code": "BFD4018",
+      "description": [
+        "Suitable for use with M20 Bolts"
+      ],
+      "images": [
+        "3-8-ratchet-load-binder-yellow.png"
+      ]
+    }
+  ]
+}

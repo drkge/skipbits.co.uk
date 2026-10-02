@@ -1,0 +1,132 @@
+{
+  "title": "Skip Hinges",
+  "description": "Weld-on skip hinges in left and right hand versions.",
+  "group": "skip-parts",
+  "order": 5,
+  "products": [
+    {
+      "id": "skip-hinge-bfd3437",
+      "name": "Skip Hinge",
+      "code": "BFD3437",
+      "options": {
+        "name": "Hand Application",
+        "choices": [
+          {
+            "name": "Left Hand Application",
+            "code": "BFD3437-LEFT"
+          },
+          {
+            "name": "Right Hand Application",
+            "code": "BFD3437-RIGHT"
+          }
+        ]
+      },
+      "description": [
+        "Introducing the Skip Hinge, a versatile and durable option for any left or right-handed application. Made of mild steel and designed with precision, the Skip Hinge offers efficient and reliable performance. With easy assembly and a sleek design, this hinge is the perfect choice for your project needs."
+      ],
+      "images": [
+        "skip-hinge-bfd3437.png"
+      ]
+    },
+    {
+      "id": "skip-hinge-bfd4146",
+      "name": "Skip Hinge",
+      "code": "BFD4146",
+      "options": {
+        "name": "Hand Application",
+        "choices": [
+          {
+            "name": "Left Hand Application",
+            "code": "BFD4146-LEFT"
+          },
+          {
+            "name": "Right Hand Application",
+            "code": "BFD4146-RIGHT"
+          }
+        ]
+      },
+      "description": [
+        "Introducing the Skip Hinge, a versatile and durable option for any left or right-handed application. Made of mild steel and designed with precision, the Skip Hinge offers efficient and reliable performance. With easy assembly and a sleek design, this hinge is the perfect choice for your project needs."
+      ],
+      "images": [
+        "skip-hinge-bfd4146.png",
+        "skip-hinge-bfd4146-2.png"
+      ]
+    },
+    {
+      "id": "skip-hinge-bfd4666",
+      "name": "Skip Hinge",
+      "code": "BFD4666",
+      "options": {
+        "name": "Hand Application",
+        "choices": [
+          {
+            "name": "Left Hand Application",
+            "code": "BFD4666-LEFT"
+          },
+          {
+            "name": "Right Hand Application",
+            "code": "BFD4666-RIGHT"
+          }
+        ]
+      },
+      "description": [
+        "Introducing the Skip Hinge, a versatile and durable option for any left or right-handed application. Made of mild steel and designed with precision, the Skip Hinge offers efficient and reliable performance. With easy assembly and a sleek design, this hinge is the perfect choice for your project needs."
+      ],
+      "images": [
+        "skip-hinge-bfd4666.png",
+        "skip-hinge-bfd4666-2.png"
+      ]
+    },
+    {
+      "id": "skip-hinge-bfd3296",
+      "name": "Skip Hinge",
+      "code": "BFD3296",
+      "options": {
+        "name": "Hand Application",
+        "choices": [
+          {
+            "name": "Left Hand Application",
+            "code": "BFD3296-LEFT"
+          },
+          {
+            "name": "Right Hand Application",
+            "code": "BFD3296-RIGHT"
+          }
+        ]
+      },
+      "description": [
+        "Introducing the Skip Hinge, a versatile and durable option for any left or right-handed application. Made of mild steel and designed with precision, the Skip Hinge offers efficient and reliable performance. With easy assembly and a sleek design, this hinge is the perfect choice for your project needs."
+      ],
+      "images": [
+        "skip-hinge-bfd3296.png",
+        "skip-hinge-bfd3296-2.png"
+      ]
+    },
+    {
+      "id": "skip-hinge-bfd3616",
+      "name": "Skip Hinge",
+      "code": "BFD3616",
+      "options": {
+        "name": "Hand Application",
+        "choices": [
+          {
+            "name": "Left Hand Application",
+            "code": "BFD3616-LEFT"
+          },
+          {
+            "name": "Right Hand Application",
+            "code": "BFD3616-RIGHT"
+          }
+        ]
+      },
+      "description": [
+        "Introducing the Skip Hinge, a versatile and durable option for any left or right-handed application. Made of mild steel and designed with precision, the Skip Hinge offers efficient and reliable performance. With easy assembly and a sleek design, this hinge is the perfect choice for your project needs."
+      ],
+      "images": [
+        "skip-hinge-bfd3616.png",
+        "skip-hinge-bfd3616-2.png"
+      ]
+    }
+  ]
+}

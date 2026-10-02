@@ -1,0 +1,48 @@
+{
+  "title": "Labyrinth Plates",
+  "description": "Labyrinth plates for skip and container doors.",
+  "group": "skip-parts",
+  "order": 11,
+  "products": [
+    {
+      "id": "labyrinth-plate-bfd6136",
+      "name": "ROR Door Catch",
+      "code": "BFD6136",
+      "description": [],
+      "images": [
+        "labyrinth-plate-bfd6136.png",
+        "labyrinth-plate-bfd6136-2.png"
+      ]
+    },
+    {
+      "id": "labyrinth-plate-bfd6697",
+      "name": "ROR Door Catch",
+      "code": "BFD6697",
+      "description": [],
+      "images": [
+        "labyrinth-plate-bfd6697.png",
+        "labyrinth-plate-bfd6697-2.png"
+      ]
+    },
+    {
+      "id": "labyrinth-plate-bfd4541",
+      "name": "Labyrinth Plate",
+      "code": "BFD4541",
+      "description": [],
+      "images": [
+        "labyrinth-plate-bfd4541.png",
+        "labyrinth-plate-bfd4541-2.png"
+      ]
+    },
+    {
+      "id": "labyrinth-plate-bfd4173",
+      "name": "Labyrinth Catch",
+      "code": "BFD4173",
+      "description": [],
+      "images": [
+        "labyrinth-plate-bfd4173.png",
+        "labyrinth-plate-bfd4173-2.png"
+      ]
+    }
+  ]
+}

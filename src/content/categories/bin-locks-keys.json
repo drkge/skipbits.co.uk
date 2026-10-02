@@ -1,0 +1,175 @@
+{
+  "title": "Bin Locks & Keys",
+  "description": "Locks, keys and catch plates for trade waste bins.",
+  "group": "bin-spares",
+  "order": 24,
+  "products": [
+    {
+      "id": "press-2-lock-plate-for-240l-lid",
+      "name": "Press 2 Lock Plate for 240L Lid",
+      "code": "PRESS_PLATE_240",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "directional-lock",
+      "name": "Directional Lock",
+      "code": "C11DL4",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "gravity-lock",
+      "name": "Gravity Lock",
+      "code": "GRAVITY LOCK",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "lock-spanner",
+      "name": "Lock Spanner",
+      "code": "NL11",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "autolock-nut",
+      "name": "Autolock Nut",
+      "code": "NL8",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "guide-plate-autolock-fm7357",
+      "name": "Guide Plate Autolock (FM7357)",
+      "code": "NL44",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "60mm-autolock-35mm-straight-pawl-fm7357",
+      "name": "60mm Autolock 35mm Straight Pawl (FM7357)",
+      "code": "NL43",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "press-2-lock-catch-plate",
+      "name": "Press 2 Lock Catch Plate",
+      "code": "NL41",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "lever-lock",
+      "name": "Lever Lock",
+      "code": "NL39",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "key-for-press2lock",
+      "name": "Key for Press2lock",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "guide-plate-for-press-2-lock-if-brought-individually",
+      "name": "Guide Plate for Press 2 Lock (if bought individually)",
+      "code": "NL29",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "press-to-lock",
+      "name": "Press to Lock",
+      "code": "NL28",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "security-post-lock-forest-lock-spine-lock",
+      "name": "Security Post Lock / Forest Lock (Spine Lock)",
+      "code": "L46",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "slam-lock-90-hasp",
+      "name": "Slam Lock 90 Hasp",
+      "code": "LOCKASPPLATE",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "slam-lock-automatic-or-manual",
+      "name": "Slam Lock Automatic or Manual",
+      "code": "LOCKSLAMAUTO",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "60mm-lock-with-55mm-straight-pawl",
+      "name": "60mm Lock with 55mm Straight Pawl",
+      "code": "HLLOCKS160",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "extended-traingle-key",
+      "name": "Extended Triangle Key",
+      "code": "HLLOCKS157",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "50mm-lock-with-straight-pawl-45mm-long",
+      "name": "50mm Lock with Straight Pawl - 45mm Long",
+      "code": "HLLOCKS156",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "adapter-for-taylr-lock-hole",
+      "name": "Adapter for Taylor Lock Hole",
+      "code": "HLLOCKS155",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "standard-traingle-key",
+      "name": "Standard Triangle Key",
+      "code": "HLLOCKS154",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "60mm-lock-with-straight-pawl",
+      "name": "60mm Lock with Straight Pawl",
+      "code": "HLLOCKS153",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "60mm-lock-with-hooked-pawl",
+      "name": "60mm Lock with Hooked Pawl",
+      "code": "HLLOCKS152",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "50mm-lock-with-straight-pawl",
+      "name": "50mm Lock with Straight Pawl",
+      "code": "HLLOCKS151",
+      "description": [],
+      "images": []
+    },
+    {
+      "id": "50mm-lock-with-hooked-pawl",
+      "name": "50mm Lock with Hooked Pawl",
+      "code": "HLLOCKS150",
+      "description": [],
+      "images": []
+    }
+  ]
+}
