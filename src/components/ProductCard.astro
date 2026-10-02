@@ -1,6 +1,6 @@
 ---
 import ProductImage from "./ProductImage.astro";
-import AskButton from "./AskButton.astro";
+import ContactButtons from "./ContactButtons.astro";
 import type { Product } from "@/lib/catalog";
 
 interface Props {
@@ -38,7 +38,7 @@ const codes = [product.code, options].filter(Boolean).join(" · ");
       )
     }
     <div class="mt-auto pt-4">
-      <AskButton product={product} class="relative z-10 w-full" />
+      <ContactButtons product={product} class="relative z-10" />
     </div>
   </div>
 </article>

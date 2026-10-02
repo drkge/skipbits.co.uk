@@ -1,0 +1,28 @@
+---
+// Call and Email buttons for product tiles. The email is pre-filled with the
+// part name and code. Side by side when the tile is wide enough, stacked when not.
+import { Icon } from "astro-icon/components";
+import { enquiryMailto } from "@/lib/enquiry";
+import type { Product } from "@/lib/catalog";
+import { BUSINESS, TEL_HREF } from "@/consts";
+
+interface Props {
+  product: Pick<Product, "name" | "code" | "options">;
+  class?: string;
+}
+
+const { product, class: className } = Astro.props;
+---
+
+<div class:list={["@container", className]}>
+  <div class="grid gap-2 @[12rem]:grid-cols-2">
+    <a href={TEL_HREF} class="btn btn-sm btn-sun" aria-label={`Call ${BUSINESS.telephoneDisplay} about ${product.name}`}>
+      <Icon name="lucide:phone" class="size-4" />
+      Call
+    </a>
+    <a href={enquiryMailto(product)} class="btn btn-sm btn-outline" aria-label={`Email us about ${product.name}`}>
+      <Icon name="lucide:mail" class="size-4" />
+      Email
+    </a>
+  </div>
+</div>
