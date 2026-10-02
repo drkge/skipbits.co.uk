@@ -59,12 +59,12 @@ const productSchema = {
     <Breadcrumbs trail={trail} />
   </div>
 
-  <div class="wrap mt-8 grid gap-10 lg:grid-cols-2 lg:gap-16" data-product>
-    <div>
+  <div class="wrap mt-8 grid gap-10 lg:grid-cols-[minmax(0,26rem)_1fr] lg:gap-16" data-product>
+    <div class="mx-auto w-full max-w-md lg:max-w-none">
       <ProductImage
         image={product.photos[0]}
         alt={product.name}
-        sizes="(min-width: 1280px) 600px, (min-width: 1024px) 45vw, 100vw"
+        sizes="(min-width: 640px) 416px, 100vw"
         widths={[360, 480, 720, 960, 1200]}
         loading="eager"
         class="rounded-2xl border border-stone-200"
@@ -96,7 +96,7 @@ const productSchema = {
               <ProductImage
                 image={photo}
                 alt={product.name}
-                sizes="(min-width: 1280px) 600px, (min-width: 1024px) 45vw, 100vw"
+                sizes="(min-width: 640px) 416px, 100vw"
                 widths={[360, 480, 720, 960, 1200]}
               />
             ))}
@@ -211,6 +211,7 @@ const productSchema = {
     if (!full) return;
     main.srcset = full.srcset;
     main.src = full.src;
+    main.style.cssText = full.style.cssText;
     for (const other of thumbs.querySelectorAll("button")) other.setAttribute("aria-pressed", String(other === button));
   });
 </script>

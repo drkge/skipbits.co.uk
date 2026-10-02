@@ -15,20 +15,22 @@ interface Props {
 }
 
 const { image, alt, sizes, widths = [240, 360, 480, 720], loading = "lazy", class: className } = Astro.props;
-// Never ask Astro for a width bigger than the source.
-const usable = image ? widths.filter((w) => w <= image.width) : [];
+// Smaller copies where they help, plus the full-size original so high-DPI
+// screens get every pixel the photo has. Never ask for more than the source.
+const usable = image ? [...new Set([...widths.filter((w) => w < image.width), image.width])] : [];
 ---
 
-<div class:list={["flex aspect-square items-center justify-center overflow-hidden bg-white", className]}>
+<div class:list={["flex aspect-square items-center justify-center overflow-hidden bg-white p-[8%]", className]}>
   {
     image ? (
       <Image
         src={image}
         alt={alt}
-        widths={usable.length ? usable : [image.width]}
+        widths={usable}
         sizes={sizes}
         loading={loading}
-        class="size-full object-contain p-[8%]"
+        class="size-full object-contain"
+        style={`max-width: ${image.width}px; max-height: ${image.height}px`}
         data-photo
       />
     ) : (
