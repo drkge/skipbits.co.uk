@@ -7,21 +7,20 @@ import type { Product } from "@/lib/catalog";
 
 interface Props {
   product: Pick<Product, "name" | "code" | "options">;
-  size?: "sm" | "lg";
   class?: string;
 }
 
-const { product, size = "sm", class: className } = Astro.props;
+const { product, class: className } = Astro.props;
 ---
 
 <a
   href={enquiryMailto(product)}
-  class:list={["btn", size === "sm" ? "btn-sm btn-sun" : "btn-primary", className]}
+  class:list={["btn btn-sm btn-sun", className]}
   data-ask
   data-name={product.name}
   data-code={product.code}
   data-option={product.options?.name}
 >
-  <Icon name="lucide:tag" class={size === "sm" ? "size-4" : "size-5"} />
+  <Icon name="lucide:tag" class="size-4" />
   Ask for price
 </a>

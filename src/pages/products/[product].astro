@@ -3,7 +3,6 @@ import type { GetStaticPaths } from "astro";
 import { getImage } from "astro:assets";
 import { Icon } from "astro-icon/components";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import AskButton from "@/components/AskButton.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import ProductCard from "@/components/ProductCard.astro";
 import ProductImage from "@/components/ProductImage.astro";
@@ -155,17 +154,16 @@ const productSchema = {
       <div class="mt-8 rounded-2xl bg-stone-50 p-6">
         <p class="font-semibold text-ink">Get in touch for pricing and availability</p>
         <p class="mt-1 text-sm text-stone-600">Phone is quickest. Quote the part code and the quantity you need.</p>
-        <div class="mt-5 grid gap-3 sm:grid-cols-2">
-          <AskButton product={product} size="lg" />
-          <a href={TEL_HREF} class="btn btn-outline">
+        <div class="mt-5 grid gap-3">
+          <a href={TEL_HREF} class="btn btn-primary">
             <Icon name="lucide:phone" class="size-5" />
-            {BUSINESS.telephoneDisplay}
+            Call {BUSINESS.telephoneDisplay}
+          </a>
+          <a href={enquiryMailto(product)} class="btn btn-outline">
+            <Icon name="lucide:mail" class="size-5" />
+            Email {BUSINESS.email}
           </a>
         </div>
-        <a href={enquiryMailto(product)} class="mt-4 inline-flex items-center gap-2 text-sm text-stone-600 hover:text-ink">
-          <Icon name="lucide:mail" class="size-4" />
-          Or email {BUSINESS.email}
-        </a>
       </div>
 
       {
