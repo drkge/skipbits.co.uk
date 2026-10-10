@@ -9,7 +9,7 @@ import ProductImage from "@/components/ProductImage.astro";
 import { getCategories, getProducts, type Product } from "@/lib/catalog";
 import { enquiryMailto } from "@/lib/enquiry";
 import { breadcrumbList } from "@/lib/schema";
-import { BUSINESS, GROUPS, SITE_URL, TEL_HREF } from "@/consts";
+import { BUSINESS, GROUPS, TEL_HREF } from "@/consts";
 
 export const getStaticPaths = (async () => {
   const products = await getProducts();
@@ -38,22 +38,14 @@ const description =
 
 const socialImage = product.photos[0] ? (await getImage({ src: product.photos[0], format: "png" })).src : undefined;
 
-const productSchema = {
-  "@type": "Product",
-  name: product.name,
-  url: new URL(product.href, SITE_URL).href,
-  ...(product.code && { sku: product.code, mpn: product.code }),
-  ...(product.description.length && { description: product.description.join(" ") }),
-  ...(socialImage && { image: new URL(socialImage, SITE_URL).href }),
-  category: category.title,
-};
+// No Product schema: Google requires offers, reviews or a rating, and products have no listed price.
 ---
 
 <BaseLayout
   title={product.code ? `${product.name} (${product.code})` : product.name}
   description={description}
   image={socialImage}
-  schema={[breadcrumbList(trail), productSchema]}
+  schema={[breadcrumbList(trail)]}
 >
   <div class="wrap pt-8">
     <Breadcrumbs trail={trail} />
