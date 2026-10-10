@@ -5,7 +5,7 @@
   "order": 19,
   "products": [
     {
-      "id": "rel-master-1014mm-x-1299mm-eurocontainer-copy",
+      "id": "rel-slave-973mm-x-1295mm-eurocontainer",
       "name": "REL Slave - 973mm x 1295mm (Eurocontainer)",
       "code": "EA3853SM",
       "description": [
@@ -16,7 +16,7 @@
         "rear-end-loader-rel-lids"
       ],
       "images": [
-        "rel-master-1014mm-x-1299mm-eurocontainer-copy.jpg"
+        "rel-slave-973mm-x-1295mm-eurocontainer.jpg"
       ]
     },
     {

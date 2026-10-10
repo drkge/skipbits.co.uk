@@ -17,23 +17,23 @@
       ]
     },
     {
-      "id": "bfd2658-skip-lug-copy",
+      "id": "bfd5045-skip-lug",
       "name": "Skip Lug Flush Mount",
       "code": "BFD5045",
       "description": [],
       "images": [
-        "bfd2658-skip-lug-copy.png",
-        "bfd2658-skip-lug-copy-2.png"
+        "bfd5045-skip-lug.png",
+        "bfd5045-skip-lug-2.png"
       ]
     },
     {
-      "id": "bfd1187-skip-lug-copy",
+      "id": "bfd2658-skip-lug",
       "name": "Skip Lug Shepperd Meiller",
       "code": "BFD2658",
       "description": [],
       "images": [
-        "bfd1187-skip-lug-copy.png",
-        "bfd1187-skip-lug-copy-2.png"
+        "bfd2658-skip-lug.png",
+        "bfd2658-skip-lug-2.png"
       ]
     },
     {

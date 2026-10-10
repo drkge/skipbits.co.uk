@@ -58,6 +58,13 @@ export default defineConfig({
     "/policies/shipping-policy": "/contact/",
     "/cart": "/",
     "/account": "/",
+    // Products that kept Shopify's duplicated "-copy" handles until 10 Oct 2026.
+    "/products/bfd3952-curved-bar-copy-copy": "/products/bfd4043-curved-bar/",
+    "/products/bfd1845-curved-bar-copy": "/products/bfd3952-curved-bar/",
+    "/products/bfd2658-skip-lug-copy": "/products/bfd5045-skip-lug/",
+    "/products/bfd1187-skip-lug-copy": "/products/bfd2658-skip-lug/",
+    "/products/rel-master-1014mm-x-1299mm-eurocontainer-copy": "/products/rel-slave-973mm-x-1295mm-eurocontainer/",
+    "/products/5-8-ratchet-load-binder-yellow-copy": "/products/5-8-ratchet-load-binder-yellow/",
   },
   integrations: [
     sitemap({
