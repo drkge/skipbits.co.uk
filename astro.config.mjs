@@ -65,9 +65,13 @@ export default defineConfig({
     "/products/bfd1187-skip-lug-copy": "/products/bfd2658-skip-lug/",
     "/products/rel-master-1014mm-x-1299mm-eurocontainer-copy": "/products/rel-slave-973mm-x-1295mm-eurocontainer/",
     "/products/5-8-ratchet-load-binder-yellow-copy": "/products/5-8-ratchet-load-binder-yellow/",
+    // Duplicate listing of the MG1100 lid, merged on 20 Oct 2026.
+    "/products/1100l-trade-waste-container-lid": "/products/1100l-trade-waste-lid-1231mm-x-986mm/",
   },
   integrations: [
     sitemap({
+      // The search page is noindex, so keep it out of the sitemap.
+      filter: (page) => !page.endsWith("/search/"),
       serialize(item) {
         const { pathname } = new URL(item.url);
         const match = PRIORITIES.find(([pattern]) => pattern.test(pathname));
