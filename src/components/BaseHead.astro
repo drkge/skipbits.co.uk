@@ -70,6 +70,19 @@ const jsonLd = {
 <meta name="generator" content={Astro.generator} />
 <meta name="theme-color" content="#ffffff" />
 
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KVYSL6BRV9"
+></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-KVYSL6BRV9");
+</script>
+
 <!-- Microsoft Clarity -->
 <script is:inline>
   (function (c, l, a, r, i, t, y) {
