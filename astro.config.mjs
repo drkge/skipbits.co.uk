@@ -36,6 +36,8 @@ export default defineConfig({
   site: SITE_URL,
   trailingSlash: "always",
   build: { format: "directory" },
+  // Astro 7 defaults to "jsx", which can drop spaces between inline elements.
+  compressHTML: true,
   // GitHub Pages can't send real redirects, so these become small HTML pages
   // that forward visitors (and search engines) from the old Shopify URLs.
   redirects: {
